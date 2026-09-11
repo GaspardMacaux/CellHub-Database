@@ -1,0 +1,16 @@
+raw_databases/
+converted/
+Archives/
+.Rhistory
+.Rapp.history
+.RData
+*.Rproj
+.Rproj.user
+*_manuscript_section.md
+integration_plan.md
+CellHubDB_Statistics_Report.md
+CellHub_DB_README.md
+build_cellhubdb.R
+.DS_Store
+Thumbs.db
+._*
