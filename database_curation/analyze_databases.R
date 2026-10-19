@@ -12,7 +12,6 @@
 #   - Empty string / NA consistency                                            #
 #   - Multi-source interaction statistics                                      #
 ################################################################################
-setwd("/media/gaspard/Gasp/CellHub Database")
 DATABASES_DIR <- "databases"
 
 cat("============================================================\n")
@@ -28,10 +27,10 @@ CASING_RULES <- c(
   "drosophila"  = "FlyBase",
   "celegans"    = "WormBase",
   "arabidopsis" = "TAIR",
-  "rice"        = "TAIR",
-  "tomato"      = "TAIR",
-  "maize"       = "TAIR",
-  "soybean"     = "TAIR",
+  "rice"        = "AsIs",
+  "tomato"      = "AsIs",
+  "maize"       = "AsIs",
+  "soybean"     = "AsIs",
   "chimp"       = "HGNC",
   "macaque"     = "HGNC",
   "marmoset"    = "HGNC",
@@ -41,7 +40,7 @@ CASING_RULES <- c(
   "pig"         = "HGNC",
   "sheep"       = "HGNC",
   "chicken"     = "HGNC",
-  "frog"        = "HGNC"
+  "frog"        = "AsIs"
 )
 
 species_dirs <- list.dirs(DATABASES_DIR, recursive = FALSE)

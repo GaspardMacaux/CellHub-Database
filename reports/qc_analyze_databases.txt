@@ -1,0 +1,523 @@
+============================================================
+  CellHub Database — Final Database Quality Control
+============================================================
+
+Found 21 species: arabidopsis, celegans, chicken, chimp, cow, dog, drosophila, frog, horse, human, macaque, maize, marmoset, mouse, pig, rat, rice, sheep, soybean, tomato, zebrafish
+
+============================================================
+  SPECIES: ARABIDOPSIS
+============================================================
+  Merged: 7191 interactions
+    PlantCellChatDB: 5481 interactions
+    PlantPhoneDB: 3514 interactions
+  Sum of individuals: 8995 | Merged: 7191 | Deduplicated: 1804 (20.1%)
+  INTERACTION TYPE: 186 / 7191 (3%) annotated
+    Non-protein Signaling       186 ( 2.6%)
+    NA                           NA (  NA%)
+  PATHWAYS: 1117 / 7191 (16%) annotated | 15 unique pathways
+  EVIDENCE: 7191 / 7191 (100%) have references
+  ANNOTATION: 3716 / 7191 (52%) annotated
+  MULTI-SOURCE: 39 / 7191 (1%) validated by 2+ databases
+    Top source combinations:
+      PlantCellChatDB, PlantPhoneDB                         39
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1907 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: CELEGANS
+============================================================
+  Merged: 245 interactions
+    cell2cell_Armingol: 245 interactions
+  Sum of individuals: 245 | Merged: 245 | Deduplicated: 0 (0.0%)
+  INTERACTION TYPE: 207 / 245 (84%) annotated
+    Cell-Cell Contact            70 (28.6%)
+    Secreted Signaling          137 (55.9%)
+    NA                           NA (  NA%)
+  PATHWAYS: 245 / 245 (100%) annotated | 20 unique pathways
+  EVIDENCE: 245 / 245 (100%) have references
+  ANNOTATION: 245 / 245 (100%) annotated
+  MULTI-SOURCE: 0 / 245 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 7 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: CHICKEN
+============================================================
+  Merged: 2593 interactions
+    connectomeDB2025: 2593 interactions
+  Sum of individuals: 2593 | Merged: 2593 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 2593 / 2593 (100%) annotated
+    Cell-Cell Contact           410 (15.8%)
+    Secreted Signaling         2183 (84.2%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 2593 (0%) annotated | 0 unique pathways
+  EVIDENCE: 2593 / 2593 (100%) have references
+  ANNOTATION: 0 / 2593 (0%) annotated
+  MULTI-SOURCE: 0 / 2593 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1192 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: CHIMP
+============================================================
+  Merged: 3444 interactions
+    connectomeDB2025: 3444 interactions
+  Sum of individuals: 3444 | Merged: 3444 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3443 / 3444 (100%) annotated
+    Cell-Cell Contact           624 (18.1%)
+    Secreted Signaling         2819 (81.9%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3444 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3444 / 3444 (100%) have references
+  ANNOTATION: 0 / 3444 (0%) annotated
+  MULTI-SOURCE: 0 / 3444 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1585 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: COW
+============================================================
+  Merged: 3295 interactions
+    connectomeDB2025: 3295 interactions
+  Sum of individuals: 3295 | Merged: 3295 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3294 / 3295 (100%) annotated
+    Cell-Cell Contact           595 (18.1%)
+    Secreted Signaling         2699 (81.9%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3295 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3295 / 3295 (100%) have references
+  ANNOTATION: 0 / 3295 (0%) annotated
+  MULTI-SOURCE: 0 / 3295 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1507 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: DOG
+============================================================
+  Merged: 3249 interactions
+    connectomeDB2025: 3249 interactions
+  Sum of individuals: 3249 | Merged: 3249 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3248 / 3249 (100%) annotated
+    Cell-Cell Contact           586 (18.0%)
+    Secreted Signaling         2662 (81.9%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3249 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3249 / 3249 (100%) have references
+  ANNOTATION: 0 / 3249 (0%) annotated
+  MULTI-SOURCE: 0 / 3249 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1494 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: DROSOPHILA
+============================================================
+  Merged: 1798 interactions
+    FlyPhoneDB2: 1798 interactions
+  Sum of individuals: 1798 | Merged: 1798 | Deduplicated: 0 (0.0%)
+  INTERACTION TYPE: 1495 / 1798 (83%) annotated
+    Secreted Signaling         1495 (83.1%)
+    NA                           NA (  NA%)
+  PATHWAYS: 119 / 1798 (7%) annotated | 16 unique pathways
+  EVIDENCE: 242 / 1798 (13%) have references
+  ANNOTATION: 1523 / 1798 (85%) annotated
+  MULTI-SOURCE: 0 / 1798 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 696 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: FROG
+============================================================
+  Merged: 2776 interactions
+    connectomeDB2025: 2776 interactions
+  Sum of individuals: 2776 | Merged: 2776 | Deduplicated: 0 (0.0%)
+  INTERACTION TYPE: 2775 / 2776 (100%) annotated
+    Cell-Cell Contact           484 (17.4%)
+    Secreted Signaling         2291 (82.5%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 2776 (0%) annotated | 0 unique pathways
+  EVIDENCE: 2776 / 2776 (100%) have references
+  ANNOTATION: 0 / 2776 (0%) annotated
+  MULTI-SOURCE: 0 / 2776 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1244 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: HORSE
+============================================================
+  Merged: 3285 interactions
+    connectomeDB2025: 3285 interactions
+  Sum of individuals: 3285 | Merged: 3285 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3284 / 3285 (100%) annotated
+    Cell-Cell Contact           593 (18.1%)
+    Secreted Signaling         2691 (81.9%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3285 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3285 / 3285 (100%) have references
+  ANNOTATION: 0 / 3285 (0%) annotated
+  MULTI-SOURCE: 0 / 3285 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1491 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: HUMAN
+============================================================
+  Merged: 11479 interactions
+    CellChatDB_v2: 3233 interactions
+    CellPhoneDB: 2909 interactions
+    CellTalkDB: 3392 interactions
+    connectomeDB2025: 3532 interactions
+    MultiNicheNet: 5079 interactions
+    NeuronChatDB: 468 interactions
+  Sum of individuals: 18613 | Merged: 11479 | Deduplicated: 7134 (38.3%)
+  CASING: 6 / 100 simple gene symbols don't follow HGNC convention
+    Examples: Activin AB, Inhibin A, Inhibin B, IL23 complex, IL27 complex, LTa1b2
+  INTERACTION TYPE: 6112 / 11479 (53%) annotated
+    Cell-Cell Contact          1002 ( 8.7%)
+    ECM-Receptor                  6 ( 0.1%)
+    Non-protein Signaling       360 ( 3.1%)
+    Secreted Signaling         4744 (41.3%)
+    NA                           NA (  NA%)
+  PATHWAYS: 3233 / 11479 (28%) annotated | 290 unique pathways
+  EVIDENCE: 10381 / 11479 (90%) have references
+  ANNOTATION: 5663 / 11479 (49%) annotated
+  MULTI-SOURCE: 3827 / 11479 (33%) validated by 2+ databases
+    Top source combinations:
+      connectomeDB2025, CellTalkDB, MultiNicheNet         1063
+      CellTalkDB, MultiNicheNet                            759
+      connectomeDB2025, MultiNicheNet                      427
+      CellChatDB_v2, connectomeDB2025, CellPhoneDB, CellTalkDB, MultiNicheNet   404
+      CellChatDB_v2, CellPhoneDB                           219
+  COMPLEX TABLE: 534 entries
+  COFACTOR TABLE: 32 entries
+  GENEINFO TABLE: 26827 genes
+  GENE COVERAGE: 2562 / 2608 (98.2%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: MACAQUE
+============================================================
+  Merged: 3417 interactions
+    connectomeDB2025: 3417 interactions
+  Sum of individuals: 3417 | Merged: 3417 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3416 / 3417 (100%) annotated
+    Cell-Cell Contact           625 (18.3%)
+    Secreted Signaling         2791 (81.7%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3417 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3417 / 3417 (100%) have references
+  ANNOTATION: 0 / 3417 (0%) annotated
+  MULTI-SOURCE: 0 / 3417 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1586 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: MAIZE
+============================================================
+  Merged: 2268 interactions
+    PlantCellChatDB: 2316 interactions
+  Sum of individuals: 2316 | Merged: 2268 | Deduplicated: 48 (2.1%)
+  INTERACTION TYPE: 155 / 2268 (7%) annotated
+    Non-protein Signaling       155 ( 6.8%)
+    NA                           NA (  NA%)
+  PATHWAYS: 1130 / 2268 (50%) annotated | 11 unique pathways
+  EVIDENCE: 2268 / 2268 (100%) have references
+  ANNOTATION: 2268 / 2268 (100%) annotated
+  MULTI-SOURCE: 0 / 2268 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1542 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: MARMOSET
+============================================================
+  Merged: 3183 interactions
+    connectomeDB2025: 3183 interactions
+  Sum of individuals: 3183 | Merged: 3183 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3182 / 3183 (100%) annotated
+    Cell-Cell Contact           551 (17.3%)
+    Secreted Signaling         2631 (82.7%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3183 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3183 / 3183 (100%) have references
+  ANNOTATION: 0 / 3183 (0%) annotated
+  MULTI-SOURCE: 0 / 3183 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1467 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: MOUSE
+============================================================
+  Merged: 9789 interactions
+    CellChatDB_v2: 3379 interactions
+    CellTalkDB: 2033 interactions
+    connectomeDB2025: 3228 interactions
+    MultiNicheNet: 5591 interactions
+    NeuronChatDB: 452 interactions
+  Sum of individuals: 14683 | Merged: 9789 | Deduplicated: 4894 (33.3%)
+  CASING: 6 / 100 simple gene symbols don't follow MGI convention
+    Examples: Activin AB, Inhibin A, Inhibin B, IL12AB, IL23 complex, IL27 complex
+  INTERACTION TYPE: 3637 / 9789 (37%) annotated
+    Cell-Cell Contact           638 ( 6.5%)
+    Non-protein Signaling       386 ( 3.9%)
+    Secreted Signaling         2613 (26.7%)
+    NA                           NA (  NA%)
+  PATHWAYS: 3379 / 9789 (35%) annotated | 293 unique pathways
+  EVIDENCE: 7893 / 9789 (81%) have references
+  ANNOTATION: 3782 / 9789 (39%) annotated
+  MULTI-SOURCE: 2956 / 9789 (30%) validated by 2+ databases
+    Top source combinations:
+      connectomeDB2025, CellTalkDB, MultiNicheNet          751
+      connectomeDB2025, MultiNicheNet                      724
+      CellChatDB_v2, connectomeDB2025, CellTalkDB, MultiNicheNet   438
+      CellTalkDB, MultiNicheNet                            274
+      CellChatDB_v2, MultiNicheNet                         212
+  COMPLEX TABLE: 337 entries
+  COFACTOR TABLE: 33 entries
+  GENEINFO TABLE: 25520 genes
+  GENE COVERAGE: 2494 / 2717 (91.8%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: PIG
+============================================================
+  Merged: 3244 interactions
+    connectomeDB2025: 3244 interactions
+  Sum of individuals: 3244 | Merged: 3244 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3243 / 3244 (100%) annotated
+    Cell-Cell Contact           577 (17.8%)
+    Secreted Signaling         2666 (82.2%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3244 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3244 / 3244 (100%) have references
+  ANNOTATION: 0 / 3244 (0%) annotated
+  MULTI-SOURCE: 0 / 3244 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1482 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: RAT
+============================================================
+  Merged: 3315 interactions
+    connectomeDB2025: 3315 interactions
+  Sum of individuals: 3315 | Merged: 3315 | Deduplicated: 0 (0.0%)
+  CASING: OK (MGI convention)
+  INTERACTION TYPE: 3313 / 3315 (100%) annotated
+    Cell-Cell Contact           599 (18.1%)
+    Secreted Signaling         2714 (81.9%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3315 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3315 / 3315 (100%) have references
+  ANNOTATION: 0 / 3315 (0%) annotated
+  MULTI-SOURCE: 0 / 3315 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1536 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: RICE
+============================================================
+  Merged: 1810 interactions
+    PlantCellChatDB: 1864 interactions
+  Sum of individuals: 1864 | Merged: 1810 | Deduplicated: 54 (2.9%)
+  INTERACTION TYPE: 138 / 1810 (8%) annotated
+    Non-protein Signaling       138 ( 7.6%)
+    NA                           NA (  NA%)
+  PATHWAYS: 1054 / 1810 (58%) annotated | 13 unique pathways
+  EVIDENCE: 1810 / 1810 (100%) have references
+  ANNOTATION: 1810 / 1810 (100%) annotated
+  MULTI-SOURCE: 0 / 1810 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 855 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: SHEEP
+============================================================
+  Merged: 3121 interactions
+    connectomeDB2025: 3121 interactions
+  Sum of individuals: 3121 | Merged: 3121 | Deduplicated: 0 (0.0%)
+  CASING: OK (HGNC convention)
+  INTERACTION TYPE: 3120 / 3121 (100%) annotated
+    Cell-Cell Contact           567 (18.2%)
+    Secreted Signaling         2553 (81.8%)
+    NA                           NA (  NA%)
+  PATHWAYS: 0 / 3121 (0%) annotated | 0 unique pathways
+  EVIDENCE: 3121 / 3121 (100%) have references
+  ANNOTATION: 0 / 3121 (0%) annotated
+  MULTI-SOURCE: 0 / 3121 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 1446 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: SOYBEAN
+============================================================
+  Merged: 1412 interactions
+    PlantCellChatDB: 1457 interactions
+  Sum of individuals: 1457 | Merged: 1412 | Deduplicated: 45 (3.1%)
+  INTERACTION TYPE: 245 / 1412 (17%) annotated
+    Non-protein Signaling       245 (17.4%)
+    NA                           NA (  NA%)
+  PATHWAYS: 1168 / 1412 (83%) annotated | 11 unique pathways
+  EVIDENCE: 1412 / 1412 (100%) have references
+  ANNOTATION: 1412 / 1412 (100%) annotated
+  MULTI-SOURCE: 0 / 1412 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 546 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: TOMATO
+============================================================
+  Merged: 1041 interactions
+    PlantCellChatDB: 1069 interactions
+  Sum of individuals: 1069 | Merged: 1041 | Deduplicated: 28 (2.6%)
+  INTERACTION TYPE: 135 / 1041 (13%) annotated
+    Non-protein Signaling       135 (13.0%)
+    NA                           NA (  NA%)
+  PATHWAYS: 587 / 1041 (56%) annotated | 11 unique pathways
+  EVIDENCE: 1041 / 1041 (100%) have references
+  ANNOTATION: 1041 / 1041 (100%) annotated
+  MULTI-SOURCE: 0 / 1041 (0%) validated by 2+ databases
+  COMPLEX TABLE: 0 entries
+  COFACTOR TABLE: 0 entries
+  GENEINFO TABLE: 0 genes
+  GENE COVERAGE: 0 / 681 (0.0%) of interaction genes in geneInfo
+
+============================================================
+  SPECIES: ZEBRAFISH
+============================================================
+  Merged: 4998 interactions
+    CellChatDB_v2: 2514 interactions
+    connectomeDB2025: 2768 interactions
+  Sum of individuals: 5282 | Merged: 4998 | Deduplicated: 284 (5.4%)
+  CASING: 16 / 98 simple gene symbols don't follow ZFIN convention
+    Examples: ccl38.1, ccl38.6, ccl38a.5, ccl38a.4, cxcl11.8, cxcl11.6, cxcl11.7, cxcl11.5, c3a.5, c3b.2
+  INTERACTION TYPE: 2767 / 4998 (55%) annotated
+    Cell-Cell Contact           479 ( 9.6%)
+    Secreted Signaling         2288 (45.8%)
+    NA                           NA (  NA%)
+  PATHWAYS: 2514 / 4998 (50%) annotated | 155 unique pathways
+  EVIDENCE: 4998 / 4998 (100%) have references
+  ANNOTATION: 2514 / 4998 (50%) annotated
+  MULTI-SOURCE: 284 / 4998 (6%) validated by 2+ databases
+    Top source combinations:
+      CellChatDB_v2, connectomeDB2025                      284
+  COMPLEX TABLE: 179 entries
+  COFACTOR TABLE: 62 entries
+  GENEINFO TABLE: 15778 genes
+  GENE COVERAGE: 1154 / 1560 (74.0%) of interaction genes in geneInfo
+
+
+============================================================
+  GLOBAL SUMMARY
+============================================================
+
+Species         Merged  Srcs  Multi%   Type%   Path%   Evid%
+---------------------------------------------------------------------- 
+arabidopsis       7191     2      1%      3%     16%    100%
+celegans           245     1      0%     84%    100%    100%
+chicken           2593     1      0%    100%      0%    100%
+chimp             3444     1      0%    100%      0%    100%
+cow               3295     1      0%    100%      0%    100%
+dog               3249     1      0%    100%      0%    100%
+drosophila        1798     1      0%     83%      7%     13%
+frog              2776     1      0%    100%      0%    100%
+horse             3285     1      0%    100%      0%    100%
+human            11479     6     33%     53%     28%     90%
+macaque           3417     1      0%    100%      0%    100%
+maize             2268     1      0%      7%     50%    100%
+marmoset          3183     1      0%    100%      0%    100%
+mouse             9789     5     30%     37%     35%     81%
+pig               3244     1      0%    100%      0%    100%
+rat               3315     1      0%    100%      0%    100%
+rice              1810     1      0%      8%     58%    100%
+sheep             3121     1      0%    100%      0%    100%
+soybean           1412     1      0%     17%     83%    100%
+tomato            1041     1      0%     13%     56%    100%
+zebrafish         4998     2      6%     55%     50%    100%
+---------------------------------------------------------------------- 
+TOTAL            76953      
+
+============================================================
+  CROSS-SPECIES CHECKS
+============================================================
+
+  Human-Mouse ortholog overlap: 8073 pairs (82% of mouse in human)
+
+============================================================
+  SOURCE CONTRIBUTION (human + mouse)
+============================================================
+
+  HUMAN (11479 interactions):
+    CellChatDB_v2              3233 (28.2%) — winning source
+    connectomeDB2025           2694 (23.5%) — winning source
+    CellPhoneDB                1945 (16.9%) — winning source
+    MultiNicheNet              1759 (15.3%) — winning source
+    CellTalkDB                 1467 (12.8%) — winning source
+    NeuronChatDB                381 ( 3.3%) — winning source
+    Contribution (present in any role):
+      CellChatDB_v2              3233 (28.2%)
+      CellPhoneDB                2909 (25.3%)
+      CellTalkDB                 3392 (29.5%)
+      connectomeDB2025           3532 (30.8%)
+      MultiNicheNet              5079 (44.2%)
+      NeuronChatDB                468 ( 4.1%)
+
+  MOUSE (9789 interactions):
+    CellChatDB_v2              3379 (34.5%) — winning source
+    MultiNicheNet              2928 (29.9%) — winning source
+    connectomeDB2025           2472 (25.3%) — winning source
+    CellTalkDB                  609 ( 6.2%) — winning source
+    NeuronChatDB                401 ( 4.1%) — winning source
+    Contribution (present in any role):
+      CellChatDB_v2              3379 (34.5%)
+      CellTalkDB                 2033 (20.8%)
+      connectomeDB2025           3228 (33.0%)
+      MultiNicheNet              5591 (57.1%)
+      NeuronChatDB                452 ( 4.6%)
+
+============================================================
+  ISSUES SUMMARY
+============================================================
+
+  No issues found. All checks passed.
+
+============================================================
+  Analysis complete.
+============================================================

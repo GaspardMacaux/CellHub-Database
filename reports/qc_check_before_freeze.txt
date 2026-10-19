@@ -1,0 +1,58 @@
+
+== maize: 0 complexes ==
+[1] subunit_1 subunit_2
+<0 lignes> (ou 'row.names' de longueur nulle)
+Most frequent subunit_1:
+integer(0)
+
+== soybean: 0 complexes ==
+[1] subunit_1 subunit_2
+<0 lignes> (ou 'row.names' de longueur nulle)
+Most frequent subunit_1:
+integer(0)
+
+== marmoset: 0 complexes ==
+[1] subunit_1 subunit_2
+<0 lignes> (ou 'row.names' de longueur nulle)
+Most frequent subunit_1:
+integer(0)
+
+== Reciprocal pairs (A->B and B->A) inside single-source files ==
+                                      file interactions reciprocal_pairs
+ CellHubDB_arabidopsis_PlantCellChatDB.rds         5481             1765
+      CellHubDB_human_connectomeDB2025.rds         3532              223
+      CellHubDB_chimp_connectomeDB2025.rds         3444              222
+      CellHubDB_horse_connectomeDB2025.rds         3285              216
+        CellHubDB_dog_connectomeDB2025.rds         3249              214
+        CellHubDB_cow_connectomeDB2025.rds         3295              213
+        CellHubDB_rat_connectomeDB2025.rds         3315              212
+      CellHubDB_sheep_connectomeDB2025.rds         3121              211
+      CellHubDB_mouse_connectomeDB2025.rds         3228              210
+    CellHubDB_macaque_connectomeDB2025.rds         3417              208
+        CellHubDB_pig_connectomeDB2025.rds         3244              208
+   CellHubDB_marmoset_connectomeDB2025.rds         3183              193
+         CellHubDB_mouse_MultiNicheNet.rds         5591              180
+  CellHubDB_zebrafish_connectomeDB2025.rds         2768              177
+       CellHubDB_frog_connectomeDB2025.rds         2776              176
+         CellHubDB_human_MultiNicheNet.rds         5079              176
+    CellHubDB_chicken_connectomeDB2025.rds         2593              144
+    CellHubDB_arabidopsis_PlantPhoneDB.rds         3514              120
+     CellHubDB_zebrafish_CellChatDB_v2.rds         2514               67
+        CellHubDB_rice_PlantCellChatDB.rds         1864               54
+       CellHubDB_maize_PlantCellChatDB.rds         2316               48
+     CellHubDB_soybean_PlantCellChatDB.rds         1457               45
+      CellHubDB_tomato_PlantCellChatDB.rds         1069               28
+      CellHubDB_drosophila_FlyPhoneDB2.rds         1798                8
+
+Examples:
+    ligand  receptor interaction_type
+ AT4G33430 AT4G39400             <NA>
+ AT1G71830 AT4G39400             <NA>
+ AT3G26940 AT4G39400             <NA>
+ AT5G10290 AT4G39400             <NA>
+ AT4G26540 AT4G39400             <NA>
+ AT3G14350 AT4G39400             <NA>
+ AT1G09970 AT4G39400             <NA>
+ AT5G65700 AT4G39400             <NA>
+ AT1G48480 AT4G39400             <NA>
+ AT1G72300 AT4G39400             <NA>

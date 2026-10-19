@@ -1,0 +1,443 @@
+[16:39:10] STEP 0-LOAD | Scanning converted/ for converted source files...
+[16:39:10] STEP 0-LOAD | Found 32 source files
+[16:39:10] STEP 0-LOAD |   Loading celegans_celegans.rds...
+[16:39:10] STEP 0-LOAD |     -> 245 rows | species: celegans | source: cell2cell_Armingol
+[16:39:10] STEP 0-LOAD |   Loading cellchatdb_v2_human.rds...
+[16:39:10] STEP 0-LOAD |     -> 3233 rows | species: human | source: CellChatDB_v2
+[16:39:10] STEP 0-LOAD |   Loading cellchatdb_v2_mouse.rds...
+[16:39:10] STEP 0-LOAD |     -> 3379 rows | species: mouse | source: CellChatDB_v2
+[16:39:10] STEP 0-LOAD |   Loading cellchatdb_v2_zebrafish.rds...
+[16:39:10] STEP 0-LOAD |     -> 2774 rows | species: zebrafish | source: CellChatDB_v2
+[16:39:10] STEP 0-LOAD |   Loading cellphonedb_human.rds...
+[16:39:10] STEP 0-LOAD |     -> 2911 rows | species: human | source: CellPhoneDB
+[16:39:10] STEP 0-LOAD |   Loading celltalkdb_human.rds...
+[16:39:10] STEP 0-LOAD |     -> 3398 rows | species: human | source: CellTalkDB
+[16:39:10] STEP 0-LOAD |   Loading celltalkdb_mouse.rds...
+[16:39:10] STEP 0-LOAD |     -> 2033 rows | species: mouse | source: CellTalkDB
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_chicken.rds...
+[16:39:10] STEP 0-LOAD |     -> 2597 rows | species: chicken | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_chimp.rds...
+[16:39:10] STEP 0-LOAD |     -> 3444 rows | species: chimp | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_cow.rds...
+[16:39:10] STEP 0-LOAD |     -> 3295 rows | species: cow | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_dog.rds...
+[16:39:10] STEP 0-LOAD |     -> 3249 rows | species: dog | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_frog.rds...
+[16:39:10] STEP 0-LOAD |     -> 2776 rows | species: frog | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_horse.rds...
+[16:39:10] STEP 0-LOAD |     -> 3285 rows | species: horse | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_human.rds...
+[16:39:10] STEP 0-LOAD |     -> 3550 rows | species: human | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_macaque.rds...
+[16:39:10] STEP 0-LOAD |     -> 3418 rows | species: macaque | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_marmoset.rds...
+[16:39:10] STEP 0-LOAD |     -> 3185 rows | species: marmoset | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_mouse.rds...
+[16:39:10] STEP 0-LOAD |     -> 3228 rows | species: mouse | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_pig.rds...
+[16:39:10] STEP 0-LOAD |     -> 3244 rows | species: pig | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_rat.rds...
+[16:39:10] STEP 0-LOAD |     -> 3315 rows | species: rat | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_sheep.rds...
+[16:39:10] STEP 0-LOAD |     -> 3121 rows | species: sheep | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading connectomedb2025_zebrafish.rds...
+[16:39:10] STEP 0-LOAD |     -> 2768 rows | species: zebrafish | source: connectomeDB2025
+[16:39:10] STEP 0-LOAD |   Loading flyphonedb2_drosophila.rds...
+[16:39:10] STEP 0-LOAD |     -> 1798 rows | species: drosophila | source: FlyPhoneDB2
+[16:39:10] STEP 0-LOAD |   Loading multinichenet_human.rds...
+[16:39:10] STEP 0-LOAD |     -> 5098 rows | species: human | source: MultiNicheNet
+[16:39:10] STEP 0-LOAD |   Loading multinichenet_mouse.rds...
+[16:39:10] STEP 0-LOAD |     -> 5681 rows | species: mouse | source: MultiNicheNet
+[16:39:10] STEP 0-LOAD |   Loading neuronchatdb_human.rds...
+[16:39:10] STEP 0-LOAD |     -> 471 rows | species: human | source: NeuronChatDB
+[16:39:10] STEP 0-LOAD |   Loading neuronchatdb_mouse.rds...
+[16:39:10] STEP 0-LOAD |     -> 452 rows | species: mouse | source: NeuronChatDB
+[16:39:10] STEP 0-LOAD |   Loading plantcellchatdb_arabidopsis.rds...
+[16:39:10] STEP 0-LOAD |     -> 5725 rows | species: arabidopsis | source: PlantCellChatDB
+[16:39:10] STEP 0-LOAD |   Loading plantcellchatdb_maize.rds...
+[16:39:10] STEP 0-LOAD |     -> 2316 rows | species: maize | source: PlantCellChatDB
+[16:39:10] STEP 0-LOAD |   Loading plantcellchatdb_rice.rds...
+[16:39:10] STEP 0-LOAD |     -> 1964 rows | species: rice | source: PlantCellChatDB
+[16:39:10] STEP 0-LOAD |   Loading plantcellchatdb_soybean.rds...
+[16:39:10] STEP 0-LOAD |     -> 1482 rows | species: soybean | source: PlantCellChatDB
+[16:39:10] STEP 0-LOAD |   Loading plantcellchatdb_tomato.rds...
+[16:39:10] STEP 0-LOAD |     -> 1083 rows | species: tomato | source: PlantCellChatDB
+[16:39:10] STEP 0-LOAD |   Loading plantphonedb_arabidopsis.rds...
+[16:39:10] STEP 0-LOAD |     -> 3514 rows | species: arabidopsis | source: PlantPhoneDB
+[16:39:11] STEP 0-LOAD | Total loaded: 92032 interactions
+[16:39:11] STEP 0-LOAD | State: 92032 interactions | 47790 unique L-R pairs | 21 species | 10 sources
+[16:39:11] STEP 0-LOAD |   arabidopsis: 9239 interactions (2 sources: PlantCellChatDB, PlantPhoneDB)
+[16:39:11] STEP 0-LOAD |   celegans: 245 interactions (1 sources: cell2cell_Armingol)
+[16:39:11] STEP 0-LOAD |   chicken: 2597 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   chimp: 3444 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   cow: 3295 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   dog: 3249 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   drosophila: 1798 interactions (1 sources: FlyPhoneDB2)
+[16:39:11] STEP 0-LOAD |   frog: 2776 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   horse: 3285 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   human: 18661 interactions (6 sources: CellChatDB_v2, CellPhoneDB, CellTalkDB, connectomeDB2025, MultiNicheNet, NeuronChatDB)
+[16:39:11] STEP 0-LOAD |   macaque: 3418 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   maize: 2316 interactions (1 sources: PlantCellChatDB)
+[16:39:11] STEP 0-LOAD |   marmoset: 3185 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   mouse: 14773 interactions (5 sources: CellChatDB_v2, CellTalkDB, connectomeDB2025, MultiNicheNet, NeuronChatDB)
+[16:39:11] STEP 0-LOAD |   pig: 3244 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   rat: 3315 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   rice: 1964 interactions (1 sources: PlantCellChatDB)
+[16:39:11] STEP 0-LOAD |   sheep: 3121 interactions (1 sources: connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   soybean: 1482 interactions (1 sources: PlantCellChatDB)
+[16:39:11] STEP 0-LOAD |   tomato: 1083 interactions (1 sources: PlantCellChatDB)
+[16:39:11] STEP 0-LOAD |   zebrafish: 5542 interactions (2 sources: CellChatDB_v2, connectomeDB2025)
+[16:39:11] STEP 0-LOAD |   GeneInfo loaded for human: 26827 genes
+[16:39:11] STEP 0-LOAD |   GeneInfo loaded for mouse: 25520 genes
+[16:39:11] STEP 0-LOAD |   GeneInfo loaded for zebrafish: 15778 genes
+[16:39:11] STEP 0-LOAD |   Complex tables loaded for: mouse, human, zebrafish
+[16:39:11] STEP 0-LOAD |   Cofactor tables loaded for: mouse, human, zebrafish
+[16:39:11] STEP 1-NA | Normalizing empty strings and whitespace-only to NA...
+[16:39:12] STEP 1-NA | Cleaned 57487 empty/whitespace entries
+[16:39:12] STEP 1-NA | Removing 1 interactions with NA ligand or receptor
+[16:39:12] STEP 1-ID | Repairing species-specific identifier formats...
+[16:39:12] STEP 1-ID |   maize ligand: 655 identifiers rewritten
+[16:39:12] STEP 1-ID |   maize receptor: 269 identifiers rewritten
+[16:39:12] STEP 1-ID |   soybean ligand: 4 identifiers rewritten
+[16:39:12] STEP 1-ID |   soybean receptor: 5 identifiers rewritten
+[16:39:12] STEP 1-ID |   maize: 438 distinct B73 v4 identifiers remain (they will not match a v5 count matrix)
+[16:39:12] STEP 1-ID |   Removing 2 entries with malformed '_' identifiers in species without curated complex tables:
+  species        source_db            ligand receptor
+ marmoset connectomeDB2025 MA_m002_jsm762B1f   CSF2RB
+ marmoset connectomeDB2025 MA_m002_jsm762B1f    IL3RA
+[16:39:12] STEP 2-PATHWAY | Cleaning non-informative pathway_name values...
+[16:39:12] STEP 2-PATHWAY | Replaced 0 source-as-pathway entries with NA
+[16:39:12] STEP 3-ANNOT | Cleaning generic annotation values...
+[16:39:12] STEP 3-ANNOT | Replaced 0 generic annotations with NA
+[16:39:12] STEP 4-TYPE | Standardizing interaction_type values...
+[16:39:12] STEP 4-TYPE | Interaction type distribution:
+
+    Cell-Cell Contact          ECM-Receptor Non-protein Signaling 
+                 8622                     6                  2029 
+   Secreted Signaling                  <NA> 
+                40575                 40797 
+[16:39:12] STEP 5-UNIPROT | Identifying entries with unresolvable UniProt IDs...
+[16:39:12] STEP 5-UNIPROT | Reference: 41948 known gene symbols, 575 complex names
+[16:39:42] STEP 5-UNIPROT | Entries with unresolvable UniProt IDs: 4
+[16:39:42] STEP 5-UNIPROT | By source:
+
+connectomeDB2025 
+               4 
+[16:39:42] STEP 5-UNIPROT | Removed entries saved to: databases/removed_uniprot_entries.csv
+[16:39:42] STEP 5-UNIPROT | After removal: 92025 interactions
+[16:39:42] STEP 6-CASE | Normalizing gene symbol casing per species...
+[16:39:42] STEP 6-CASE |   celegans: WormBase convention — keeping as-is
+[16:39:42] STEP 6-CASE |   human: applying HGNC convention to 18661 interactions...
+[16:39:48] STEP 6-CASE |     Corrected: 5 gene names
+[16:39:48] STEP 6-CASE |   mouse: applying MGI convention to 14773 interactions...
+[16:39:52] STEP 6-CASE |     Corrected: 4 gene names
+[16:39:52] STEP 6-CASE |   zebrafish: applying ZFIN convention to 5542 interactions...
+[16:39:53] STEP 6-CASE |     Corrected: 351 gene names
+[16:39:53] STEP 6-CASE |   chicken: applying HGNC convention to 2593 interactions...
+[16:39:53] STEP 6-CASE |     Corrected: 4 gene names
+[16:39:53] STEP 6-CASE |   chimp: applying HGNC convention to 3444 interactions...
+[16:39:53] STEP 6-CASE |     Corrected: 0 gene names
+[16:39:53] STEP 6-CASE |   cow: applying HGNC convention to 3295 interactions...
+[16:39:53] STEP 6-CASE |     Corrected: 1 gene names
+[16:39:53] STEP 6-CASE |   dog: applying HGNC convention to 3249 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 3 gene names
+[16:39:54] STEP 6-CASE |   frog: AsIs convention — keeping as-is
+[16:39:54] STEP 6-CASE |   horse: applying HGNC convention to 3285 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 3 gene names
+[16:39:54] STEP 6-CASE |   macaque: applying HGNC convention to 3417 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 1 gene names
+[16:39:54] STEP 6-CASE |   marmoset: applying HGNC convention to 3183 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 5 gene names
+[16:39:54] STEP 6-CASE |   pig: applying HGNC convention to 3244 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 0 gene names
+[16:39:54] STEP 6-CASE |   rat: applying MGI convention to 3315 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 0 gene names
+[16:39:54] STEP 6-CASE |   sheep: applying HGNC convention to 3121 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 2 gene names
+[16:39:54] STEP 6-CASE |   drosophila: FlyBase convention — keeping as-is
+[16:39:54] STEP 6-CASE |   arabidopsis: applying TAIR convention to 9239 interactions...
+[16:39:54] STEP 6-CASE |     Corrected: 183 gene names
+[16:39:54] STEP 6-CASE |   maize: AsIs convention — keeping as-is
+[16:39:54] STEP 6-CASE |   rice: AsIs convention — keeping as-is
+[16:39:54] STEP 6-CASE |   soybean: AsIs convention — keeping as-is
+[16:39:54] STEP 6-CASE |   tomato: AsIs convention — keeping as-is
+[16:39:54] STEP 6B-GENESYM | Validating gene symbols against geneInfo...
+[16:39:54] STEP 6B-GENESYM |   celegans: no geneInfo available — skipping validation
+[16:39:56] STEP 6B-GENESYM |   human: 51867 aliases available for rescue
+[16:40:01] STEP 6B-GENESYM |   human: 40 / 18661 interactions flagged (26827 gene symbols + 338 complex names in reference)
+[16:40:03] STEP 6B-GENESYM |   mouse: 60462 aliases available for rescue
+[16:40:06] STEP 6B-GENESYM |   mouse: 61 / 14773 interactions flagged (25520 gene symbols + 337 complex names in reference)
+[16:40:06] STEP 6B-GENESYM |   zebrafish: geneInfo is not genome-wide — skipping validation
+[16:40:06] STEP 6B-GENESYM |   chicken: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   chimp: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   cow: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   dog: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   frog: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   horse: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   macaque: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   marmoset: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   pig: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   rat: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   sheep: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   drosophila: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   arabidopsis: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   maize: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   rice: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   soybean: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   tomato: no geneInfo available — skipping validation
+[16:40:06] STEP 6B-GENESYM |   Rescued through aliases: 84 interactions -> databases/renamed_alias_genesymbols.csv
+
+      CellTalkDB connectomeDB2025    MultiNicheNet 
+               9               22               53 
+[16:40:06] STEP 6B-GENESYM |   Unique unmatched symbols: 28
+[16:40:06] STEP 6B-GENESYM |   Top 30 unmatched symbols:
+    CRIPTO                    (8 occurrences, species: human)
+    DEFB4A                    (7 occurrences, species: human)
+    Gm12407                   (6 occurrences, species: mouse)
+    Gm13309                   (6 occurrences, species: mouse)
+    Gm21104                   (6 occurrences, species: mouse)
+    Gm2457                    (6 occurrences, species: mouse)
+    Gm2564                    (6 occurrences, species: mouse)
+    RPSAP58                   (5 occurrences, species: human)
+    Gm14548                   (5 occurrences, species: mouse)
+    Gm13306                   (5 occurrences, species: mouse)
+    DEFB4B                    (4 occurrences, species: human)
+    Gm10591                   (4 occurrences, species: mouse)
+    Gm13304                   (4 occurrences, species: mouse)
+    C10ORF99                  (3 occurrences, species: human)
+    KLRA1P                    (3 occurrences, species: human)
+    GLRA4                     (3 occurrences, species: human)
+    Gm9733                    (3 occurrences, species: mouse)
+    Lilr4b                    (3 occurrences, species: mouse)
+    DEFB106A                  (2 occurrences, species: human)
+    DEFB106B                  (2 occurrences, species: human)
+    C4B_2                     (2 occurrences, species: human)
+    Gm20605                   (2 occurrences, species: mouse)
+    LOC101059948              (1 occurrences, species: human)
+    2610528A11Rik             (1 occurrences, species: mouse)
+    9530003J23Rik             (1 occurrences, species: mouse)
+    Gm5155                    (1 occurrences, species: mouse)
+    Gstp-ps                   (1 occurrences, species: mouse)
+    Gm13305                   (1 occurrences, species: mouse)
+[16:40:06] STEP 6B-GENESYM |   Removed entries saved to: databases/removed_invalid_genesymbols.csv
+[16:40:06] STEP 6B-GENESYM |   By source:
+
+     CellPhoneDB       CellTalkDB connectomeDB2025    MultiNicheNet 
+               2                4               15               77 
+    NeuronChatDB 
+               3 
+[16:40:06] STEP 6B-GENESYM |   Gene symbol validation: 92025 -> 91924 interactions (-101 removed)
+[16:40:06] STEP 7-NAMES | Rebuilding interaction_name and interaction_name_2...
+[16:40:06] STEP 7-NAMES | Removing 680 intra-source duplicates (from case normalization)
+[16:40:06] STEP 7-NAMES | After rebuild: 91244 interactions
+[16:40:06] STEP 7-NAMES | Sample rows:
+    interaction_name = Ecm1_Itgb4 | ligand = Ecm1 | receptor = Itgb4 | species = rat | source_db = connectomeDB2025 | interaction_type = Secreted Signaling
+    interaction_name = WNT9B_FZD6 | ligand = WNT9B | receptor = FZD6 | species = marmoset | source_db = connectomeDB2025 | interaction_type = Secreted Signaling
+    interaction_name = ABA_Zm00001eb239670 | ligand = ABA | receptor = Zm00001eb239670 | species = maize | source_db = PlantCellChatDB | interaction_type = Non-protein Signaling
+[16:40:06] STEP 8-EVIDENCE | Normalizing evidence column formatting...
+[16:40:06] STEP 8-EVIDENCE | Evidence: 85884 -> 85884 non-NA entries
+[16:40:06] STEP 9-SOURCES | Adding 'sources' column (initialized from source_db)...
+[16:40:06] STEP 10-OUTPUT | Splitting by species and saving...
+[16:40:06] STEP 10-OUTPUT | === Processing CELEGANS ===
+[16:40:06] STEP 10-OUTPUT |   cell2cell_Armingol: 245 interactions -> CellHubDB_celegans_cell2cell_Armingol.rds
+[16:40:06] STEP 10-OUTPUT |   Merging 1 sources for celegans...
+[16:40:06] STEP 10-OUTPUT |   Merge: 245 -> 245 interactions (-0 dups, 0 multi-source)
+[16:40:06] STEP 10-OUTPUT |   Merged DB: 245 interactions -> CellHubDB_celegans_merged.rds
+[16:40:06] STEP 10-OUTPUT | === Processing HUMAN ===
+[16:40:07] STEP 10-OUTPUT |   CellChatDB_v2: 3233 interactions -> CellHubDB_human_CellChatDB_v2.rds
+    complex table: 105 curated + 196 generated from subunits
+[16:40:07] STEP 10-OUTPUT |   CellPhoneDB: 2909 interactions -> CellHubDB_human_CellPhoneDB.rds
+[16:40:08] STEP 10-OUTPUT |   CellTalkDB: 3392 interactions -> CellHubDB_human_CellTalkDB.rds
+[16:40:08] STEP 10-OUTPUT |   connectomeDB2025: 3532 interactions -> CellHubDB_human_connectomeDB2025.rds
+[16:40:08] STEP 10-OUTPUT |   MultiNicheNet: 5079 interactions -> CellHubDB_human_MultiNicheNet.rds
+[16:40:09] STEP 10-OUTPUT |   NeuronChatDB: 468 interactions -> CellHubDB_human_NeuronChatDB.rds
+[16:40:09] STEP 10-OUTPUT |   Merging 6 sources for human...
+[16:40:09] STEP 10-OUTPUT |   Oriented 13 CellPhoneDB pairs on oriented sources
+[16:40:15] STEP 10-OUTPUT |   Merge: 18613 -> 11479 interactions (-7134 dups, 3827 multi-source)
+    complex table: 338 curated + 196 generated from subunits
+[16:40:15] STEP 10-OUTPUT |   Merged DB: 11479 interactions -> CellHubDB_human_merged.rds
+[16:40:15] STEP 10-OUTPUT | === Processing MOUSE ===
+[16:40:15] STEP 10-OUTPUT |   CellChatDB_v2: 3379 interactions -> CellHubDB_mouse_CellChatDB_v2.rds
+[16:40:15] STEP 10-OUTPUT |   CellTalkDB: 2033 interactions -> CellHubDB_mouse_CellTalkDB.rds
+[16:40:16] STEP 10-OUTPUT |   connectomeDB2025: 3228 interactions -> CellHubDB_mouse_connectomeDB2025.rds
+[16:40:16] STEP 10-OUTPUT |   MultiNicheNet: 5591 interactions -> CellHubDB_mouse_MultiNicheNet.rds
+[16:40:16] STEP 10-OUTPUT |   NeuronChatDB: 452 interactions -> CellHubDB_mouse_NeuronChatDB.rds
+[16:40:16] STEP 10-OUTPUT |   Merging 5 sources for mouse...
+[16:40:21] STEP 10-OUTPUT |   Merge: 14683 -> 9789 interactions (-4894 dups, 2956 multi-source)
+[16:40:22] STEP 10-OUTPUT |   Merged DB: 9789 interactions -> CellHubDB_mouse_merged.rds
+[16:40:22] STEP 10-OUTPUT | === Processing ZEBRAFISH ===
+    complex table: 130 curated + 49 generated from subunits
+[16:40:22] STEP 10-OUTPUT |   CellChatDB_v2: 2514 interactions -> CellHubDB_zebrafish_CellChatDB_v2.rds
+[16:40:22] STEP 10-OUTPUT |   connectomeDB2025: 2768 interactions -> CellHubDB_zebrafish_connectomeDB2025.rds
+[16:40:22] STEP 10-OUTPUT |   Merging 2 sources for zebrafish...
+[16:40:22] STEP 10-OUTPUT |   Merge: 5282 -> 4998 interactions (-284 dups, 284 multi-source)
+    complex table: 130 curated + 49 generated from subunits
+[16:40:22] STEP 10-OUTPUT |   Merged DB: 4998 interactions -> CellHubDB_zebrafish_merged.rds
+[16:40:22] STEP 10-OUTPUT | === Processing CHICKEN ===
+[16:40:22] STEP 10-OUTPUT |   connectomeDB2025: 2593 interactions -> CellHubDB_chicken_connectomeDB2025.rds
+[16:40:22] STEP 10-OUTPUT |   Merging 1 sources for chicken...
+[16:40:22] STEP 10-OUTPUT |   Merge: 2593 -> 2593 interactions (-0 dups, 0 multi-source)
+[16:40:22] STEP 10-OUTPUT |   Merged DB: 2593 interactions -> CellHubDB_chicken_merged.rds
+[16:40:22] STEP 10-OUTPUT | === Processing CHIMP ===
+[16:40:22] STEP 10-OUTPUT |   connectomeDB2025: 3444 interactions -> CellHubDB_chimp_connectomeDB2025.rds
+[16:40:22] STEP 10-OUTPUT |   Merging 1 sources for chimp...
+[16:40:22] STEP 10-OUTPUT |   Merge: 3444 -> 3444 interactions (-0 dups, 0 multi-source)
+[16:40:22] STEP 10-OUTPUT |   Merged DB: 3444 interactions -> CellHubDB_chimp_merged.rds
+[16:40:22] STEP 10-OUTPUT | === Processing COW ===
+[16:40:22] STEP 10-OUTPUT |   connectomeDB2025: 3295 interactions -> CellHubDB_cow_connectomeDB2025.rds
+[16:40:22] STEP 10-OUTPUT |   Merging 1 sources for cow...
+[16:40:22] STEP 10-OUTPUT |   Merge: 3295 -> 3295 interactions (-0 dups, 0 multi-source)
+[16:40:22] STEP 10-OUTPUT |   Merged DB: 3295 interactions -> CellHubDB_cow_merged.rds
+[16:40:22] STEP 10-OUTPUT | === Processing DOG ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 3249 interactions -> CellHubDB_dog_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for dog...
+[16:40:23] STEP 10-OUTPUT |   Merge: 3249 -> 3249 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 3249 interactions -> CellHubDB_dog_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing FROG ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 2776 interactions -> CellHubDB_frog_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for frog...
+[16:40:23] STEP 10-OUTPUT |   Merge: 2776 -> 2776 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 2776 interactions -> CellHubDB_frog_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing HORSE ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 3285 interactions -> CellHubDB_horse_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for horse...
+[16:40:23] STEP 10-OUTPUT |   Merge: 3285 -> 3285 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 3285 interactions -> CellHubDB_horse_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing MACAQUE ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 3417 interactions -> CellHubDB_macaque_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for macaque...
+[16:40:23] STEP 10-OUTPUT |   Merge: 3417 -> 3417 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 3417 interactions -> CellHubDB_macaque_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing MARMOSET ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 3183 interactions -> CellHubDB_marmoset_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for marmoset...
+[16:40:23] STEP 10-OUTPUT |   Merge: 3183 -> 3183 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 3183 interactions -> CellHubDB_marmoset_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing PIG ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 3244 interactions -> CellHubDB_pig_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for pig...
+[16:40:23] STEP 10-OUTPUT |   Merge: 3244 -> 3244 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 3244 interactions -> CellHubDB_pig_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing RAT ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 3315 interactions -> CellHubDB_rat_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for rat...
+[16:40:23] STEP 10-OUTPUT |   Merge: 3315 -> 3315 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 3315 interactions -> CellHubDB_rat_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing SHEEP ===
+[16:40:23] STEP 10-OUTPUT |   connectomeDB2025: 3121 interactions -> CellHubDB_sheep_connectomeDB2025.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for sheep...
+[16:40:23] STEP 10-OUTPUT |   Merge: 3121 -> 3121 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 3121 interactions -> CellHubDB_sheep_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing DROSOPHILA ===
+[16:40:23] STEP 10-OUTPUT |   FlyPhoneDB2: 1798 interactions -> CellHubDB_drosophila_FlyPhoneDB2.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 1 sources for drosophila...
+[16:40:23] STEP 10-OUTPUT |   Merge: 1798 -> 1798 interactions (-0 dups, 0 multi-source)
+[16:40:23] STEP 10-OUTPUT |   Merged DB: 1798 interactions -> CellHubDB_drosophila_merged.rds
+[16:40:23] STEP 10-OUTPUT | === Processing ARABIDOPSIS ===
+[16:40:23] STEP 10-OUTPUT |   PlantCellChatDB: 5481 interactions -> CellHubDB_arabidopsis_PlantCellChatDB.rds
+[16:40:23] STEP 10-OUTPUT |   PlantPhoneDB: 3514 interactions -> CellHubDB_arabidopsis_PlantPhoneDB.rds
+[16:40:23] STEP 10-OUTPUT |   Merging 2 sources for arabidopsis...
+[16:40:23] STEP 10-OUTPUT |   Oriented 3 CellPhoneDB pairs on oriented sources
+[16:40:27] STEP 10-OUTPUT |   Merge: 8995 -> 7191 interactions (-1804 dups, 39 multi-source)
+[16:40:27] STEP 10-OUTPUT |   Merged DB: 7191 interactions -> CellHubDB_arabidopsis_merged.rds
+[16:40:27] STEP 10-OUTPUT | === Processing MAIZE ===
+[16:40:27] STEP 10-OUTPUT |   PlantCellChatDB: 2316 interactions -> CellHubDB_maize_PlantCellChatDB.rds
+[16:40:27] STEP 10-OUTPUT |   Merging 1 sources for maize...
+[16:40:27] STEP 10-OUTPUT |   Merge: 2316 -> 2268 interactions (-48 dups, 0 multi-source)
+[16:40:27] STEP 10-OUTPUT |   Merged DB: 2268 interactions -> CellHubDB_maize_merged.rds
+[16:40:27] STEP 10-OUTPUT | === Processing RICE ===
+[16:40:27] STEP 10-OUTPUT |   PlantCellChatDB: 1864 interactions -> CellHubDB_rice_PlantCellChatDB.rds
+[16:40:27] STEP 10-OUTPUT |   Merging 1 sources for rice...
+[16:40:27] STEP 10-OUTPUT |   Merge: 1864 -> 1810 interactions (-54 dups, 0 multi-source)
+[16:40:27] STEP 10-OUTPUT |   Merged DB: 1810 interactions -> CellHubDB_rice_merged.rds
+[16:40:27] STEP 10-OUTPUT | === Processing SOYBEAN ===
+[16:40:27] STEP 10-OUTPUT |   PlantCellChatDB: 1457 interactions -> CellHubDB_soybean_PlantCellChatDB.rds
+[16:40:27] STEP 10-OUTPUT |   Merging 1 sources for soybean...
+[16:40:27] STEP 10-OUTPUT |   Merge: 1457 -> 1412 interactions (-45 dups, 0 multi-source)
+[16:40:27] STEP 10-OUTPUT |   Merged DB: 1412 interactions -> CellHubDB_soybean_merged.rds
+[16:40:27] STEP 10-OUTPUT | === Processing TOMATO ===
+[16:40:27] STEP 10-OUTPUT |   PlantCellChatDB: 1069 interactions -> CellHubDB_tomato_PlantCellChatDB.rds
+[16:40:27] STEP 10-OUTPUT |   Merging 1 sources for tomato...
+[16:40:28] STEP 10-OUTPUT |   Merge: 1069 -> 1041 interactions (-28 dups, 0 multi-source)
+[16:40:28] STEP 10-OUTPUT |   Merged DB: 1041 interactions -> CellHubDB_tomato_merged.rds
+[16:40:28] STEP 11-CHECK | Running final integrity checks...
+[16:40:28] STEP 11-CHECK |   CELEGANS: 245 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:32] STEP 11-CHECK |   HUMAN: 11479 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:36] STEP 11-CHECK |   MOUSE: 9789 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:38] STEP 11-CHECK |   ZEBRAFISH: 4998 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:38] STEP 11-CHECK |   CHICKEN: 2593 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:39] STEP 11-CHECK |   CHIMP: 3444 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:40] STEP 11-CHECK |   COW: 3295 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:41] STEP 11-CHECK |   DOG: 3249 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:42] STEP 11-CHECK |   FROG: 2776 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:43] STEP 11-CHECK |   HORSE: 3285 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:44] STEP 11-CHECK |   MACAQUE: 3417 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:45] STEP 11-CHECK |   MARMOSET: 3183 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:46] STEP 11-CHECK |   PIG: 3244 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:47] STEP 11-CHECK |   RAT: 3315 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:48] STEP 11-CHECK |   SHEEP: 3121 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:48] STEP 11-CHECK |   DROSOPHILA: 1798 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:52] STEP 11-CHECK |   ARABIDOPSIS: 7191 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:53] STEP 11-CHECK |   MAIZE: 2268 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:54] STEP 11-CHECK |   RICE: 1810 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:54] STEP 11-CHECK |   SOYBEAN: 1412 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:55] STEP 11-CHECK |   TOMATO: 1041 interactions | empty=0 | dups=0 | uniprot=0 | rownames=OK
+[16:40:55] STEP 12-SUMMARY | 
+[16:40:55] STEP 12-SUMMARY | ==================== PIPELINE COMPLETE ====================
+[16:40:55] STEP 12-SUMMARY | 
+[16:40:55] STEP 12-SUMMARY |   arabidopsis/CellHubDB_arabidopsis_merged.rds         7191 interactions  (  133 KB)
+[16:40:55] STEP 12-SUMMARY |   arabidopsis/CellHubDB_arabidopsis_PlantCellChatDB.rds   5481 interactions  (  102 KB)
+[16:40:55] STEP 12-SUMMARY |   arabidopsis/CellHubDB_arabidopsis_PlantPhoneDB.rds   3514 interactions  (   64 KB)
+[16:40:55] STEP 12-SUMMARY |   celegans/CellHubDB_celegans_cell2cell_Armingol.rds    245 interactions  (   11 KB)
+[16:40:55] STEP 12-SUMMARY |   celegans/CellHubDB_celegans_merged.rds                245 interactions  (   11 KB)
+[16:40:55] STEP 12-SUMMARY |   chicken/CellHubDB_chicken_connectomeDB2025.rds       2593 interactions  (   84 KB)
+[16:40:55] STEP 12-SUMMARY |   chicken/CellHubDB_chicken_merged.rds                 2593 interactions  (   84 KB)
+[16:40:55] STEP 12-SUMMARY |   chimp/CellHubDB_chimp_connectomeDB2025.rds           3444 interactions  (  108 KB)
+[16:40:55] STEP 12-SUMMARY |   chimp/CellHubDB_chimp_merged.rds                     3444 interactions  (  108 KB)
+[16:40:55] STEP 12-SUMMARY |   cow/CellHubDB_cow_connectomeDB2025.rds               3295 interactions  (  105 KB)
+[16:40:55] STEP 12-SUMMARY |   cow/CellHubDB_cow_merged.rds                         3295 interactions  (  105 KB)
+[16:40:55] STEP 12-SUMMARY |   dog/CellHubDB_dog_connectomeDB2025.rds               3249 interactions  (  103 KB)
+[16:40:55] STEP 12-SUMMARY |   dog/CellHubDB_dog_merged.rds                         3249 interactions  (  103 KB)
+[16:40:55] STEP 12-SUMMARY |   drosophila/CellHubDB_drosophila_FlyPhoneDB2.rds      1798 interactions  (   47 KB)
+[16:40:55] STEP 12-SUMMARY |   drosophila/CellHubDB_drosophila_merged.rds           1798 interactions  (   47 KB)
+[16:40:55] STEP 12-SUMMARY |   frog/CellHubDB_frog_connectomeDB2025.rds             2776 interactions  (   89 KB)
+[16:40:55] STEP 12-SUMMARY |   frog/CellHubDB_frog_merged.rds                       2776 interactions  (   89 KB)
+[16:40:55] STEP 12-SUMMARY |   horse/CellHubDB_horse_connectomeDB2025.rds           3285 interactions  (  105 KB)
+[16:40:55] STEP 12-SUMMARY |   horse/CellHubDB_horse_merged.rds                     3285 interactions  (  105 KB)
+[16:40:55] STEP 12-SUMMARY |   human/CellHubDB_human_CellChatDB_v2.rds              3233 interactions  ( 2042 KB)
+[16:40:55] STEP 12-SUMMARY |   human/CellHubDB_human_CellPhoneDB.rds                2909 interactions  ( 1955 KB)
+[16:40:55] STEP 12-SUMMARY |   human/CellHubDB_human_CellTalkDB.rds                 3392 interactions  ( 1987 KB)
+[16:40:55] STEP 12-SUMMARY |   human/CellHubDB_human_connectomeDB2025.rds           3532 interactions  ( 2006 KB)
+[16:40:56] STEP 12-SUMMARY |   human/CellHubDB_human_merged.rds                    11479 interactions  ( 2397 KB)
+[16:40:56] STEP 12-SUMMARY |   human/CellHubDB_human_MultiNicheNet.rds              5079 interactions  ( 2114 KB)
+[16:40:56] STEP 12-SUMMARY |   human/CellHubDB_human_NeuronChatDB.rds                468 interactions  ( 1904 KB)
+[16:40:56] STEP 12-SUMMARY |   macaque/CellHubDB_macaque_connectomeDB2025.rds       3417 interactions  (  108 KB)
+[16:40:56] STEP 12-SUMMARY |   macaque/CellHubDB_macaque_merged.rds                 3417 interactions  (  108 KB)
+[16:40:56] STEP 12-SUMMARY |   maize/CellHubDB_maize_merged.rds                     2268 interactions  (   53 KB)
+[16:40:56] STEP 12-SUMMARY |   maize/CellHubDB_maize_PlantCellChatDB.rds            2316 interactions  (   54 KB)
+[16:40:56] STEP 12-SUMMARY |   marmoset/CellHubDB_marmoset_connectomeDB2025.rds     3183 interactions  (  102 KB)
+[16:40:56] STEP 12-SUMMARY |   marmoset/CellHubDB_marmoset_merged.rds               3183 interactions  (  102 KB)
+[16:40:56] STEP 12-SUMMARY |   mouse/CellHubDB_mouse_CellChatDB_v2.rds              3379 interactions  ( 1735 KB)
+[16:40:56] STEP 12-SUMMARY |   mouse/CellHubDB_mouse_CellTalkDB.rds                 2033 interactions  ( 1642 KB)
+[16:40:56] STEP 12-SUMMARY |   mouse/CellHubDB_mouse_connectomeDB2025.rds           3228 interactions  ( 1682 KB)
+[16:40:56] STEP 12-SUMMARY |   mouse/CellHubDB_mouse_merged.rds                     9789 interactions  ( 2039 KB)
+[16:40:56] STEP 12-SUMMARY |   mouse/CellHubDB_mouse_MultiNicheNet.rds              5591 interactions  ( 1796 KB)
+[16:40:57] STEP 12-SUMMARY |   mouse/CellHubDB_mouse_NeuronChatDB.rds                452 interactions  ( 1586 KB)
+[16:40:57] STEP 12-SUMMARY |   pig/CellHubDB_pig_connectomeDB2025.rds               3244 interactions  (  103 KB)
+[16:40:57] STEP 12-SUMMARY |   pig/CellHubDB_pig_merged.rds                         3244 interactions  (  103 KB)
+[16:40:57] STEP 12-SUMMARY |   rat/CellHubDB_rat_connectomeDB2025.rds               3315 interactions  (  106 KB)
+[16:40:57] STEP 12-SUMMARY |   rat/CellHubDB_rat_merged.rds                         3315 interactions  (  106 KB)
+[16:40:57] STEP 12-SUMMARY |   rice/CellHubDB_rice_merged.rds                       1810 interactions  (   36 KB)
+[16:40:57] STEP 12-SUMMARY |   rice/CellHubDB_rice_PlantCellChatDB.rds              1864 interactions  (   37 KB)
+[16:40:57] STEP 12-SUMMARY |   sheep/CellHubDB_sheep_connectomeDB2025.rds           3121 interactions  (  102 KB)
+[16:40:57] STEP 12-SUMMARY |   sheep/CellHubDB_sheep_merged.rds                     3121 interactions  (  102 KB)
+[16:40:57] STEP 12-SUMMARY |   soybean/CellHubDB_soybean_merged.rds                 1412 interactions  (   29 KB)
+[16:40:57] STEP 12-SUMMARY |   soybean/CellHubDB_soybean_PlantCellChatDB.rds        1457 interactions  (   30 KB)
+[16:40:57] STEP 12-SUMMARY |   tomato/CellHubDB_tomato_merged.rds                   1041 interactions  (   25 KB)
+[16:40:57] STEP 12-SUMMARY |   tomato/CellHubDB_tomato_PlantCellChatDB.rds          1069 interactions  (   25 KB)
+[16:40:57] STEP 12-SUMMARY |   zebrafish/CellHubDB_zebrafish_CellChatDB_v2.rds      2514 interactions  (  260 KB)
+[16:40:57] STEP 12-SUMMARY |   zebrafish/CellHubDB_zebrafish_connectomeDB2025.rds   2768 interactions  (  298 KB)
+[16:40:57] STEP 12-SUMMARY |   zebrafish/CellHubDB_zebrafish_merged.rds             4998 interactions  (  337 KB)
+[16:40:57] STEP 12-SUMMARY | 
+[16:40:57] STEP 12-SUMMARY | Total output files: 53
+[16:40:57] STEP 12-SUMMARY | Done!

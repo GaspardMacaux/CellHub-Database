@@ -1,0 +1,48 @@
+=== Generating UpSet plot for human ===
+  Sources: CellChatDB_v2, CellPhoneDB, CellTalkDB, connectomeDB2025, MultiNicheNet, NeuronChatDB
+  Interactions: 11479
+  Saved: figures/upset_human.png
+=== Generating UpSet plot for mouse ===
+  Sources: CellChatDB_v2, CellTalkDB, connectomeDB2025, MultiNicheNet, NeuronChatDB
+  Interactions: 9789
+  Saved: figures/upset_mouse.png
+Messages d'avis :
+1: `aes_string()` was deprecated in ggplot2 3.0.0.
+ℹ Please use tidy evaluation idioms with `aes()`.
+ℹ See also `vignette("ggplot2-in-packages")` for more information.
+ℹ The deprecated feature was likely used in the UpSetR package.
+  Please report the issue to the authors. 
+2: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.
+ℹ The deprecated feature was likely used in the UpSetR package.
+  Please report the issue to the authors. 
+3: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead.
+ℹ The deprecated feature was likely used in the UpSetR package.
+  Please report the issue to the authors. 
+
+Done!
+Loaded 21 species
+       species     n          category
+1  arabidopsis  7191            Plants
+2     celegans   245     Invertebrates
+3      chicken  2593 Other vertebrates
+4        chimp  3444           Mammals
+5          cow  3295           Mammals
+6          dog  3249           Mammals
+7   drosophila  1798     Invertebrates
+8         frog  2776 Other vertebrates
+9        horse  3285           Mammals
+10       human 11479           Mammals
+11     macaque  3417           Mammals
+12       maize  2268            Plants
+13    marmoset  3183           Mammals
+14       mouse  9789           Mammals
+15         pig  3244           Mammals
+16         rat  3315           Mammals
+17        rice  1810            Plants
+18       sheep  3121           Mammals
+19     soybean  1412            Plants
+20      tomato  1041            Plants
+21   zebrafish  4998 Other vertebrates
+Saved!

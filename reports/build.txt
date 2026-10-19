@@ -1,0 +1,25 @@
+[Build] 21 species found: arabidopsis, celegans, chicken, chimp, cow, dog, drosophila, frog, horse, human, macaque, maize, marmoset, mouse, pig, rat, rice, sheep, soybean, tomato, zebrafish
+[Build] CellHubDB.rds written (6.1 Mb)
+[Build] Version 2.0 | 21 species | 10 sources | 76,953 interactions
+     species interactions n_sources multi_source pct_multi_source
+ arabidopsis         7191         2           39              0.5
+    celegans          245         1            0              0.0
+     chicken         2593         1            0              0.0
+       chimp         3444         1            0              0.0
+         cow         3295         1            0              0.0
+         dog         3249         1            0              0.0
+  drosophila         1798         1            0              0.0
+        frog         2776         1            0              0.0
+       horse         3285         1            0              0.0
+       human        11479         6         3827             33.3
+     macaque         3417         1            0              0.0
+       maize         2268         1            0              0.0
+    marmoset         3183         1            0              0.0
+       mouse         9789         5         2956             30.2
+         pig         3244         1            0              0.0
+         rat         3315         1            0              0.0
+        rice         1810         1            0              0.0
+       sheep         3121         1            0              0.0
+     soybean         1412         1            0              0.0
+      tomato         1041         1            0              0.0
+   zebrafish         4998         2          284              5.7

@@ -232,10 +232,12 @@ for (sp in c("human", "mouse", "ALL")) {
   md("| Type | Count | % |")
   md("|------|-------|---|")
   type_table <- table(inter_list$interaction_type, useNA = "always")
-  for (t in names(type_table)) {
-    tname <- if (is.na(t)) "Not annotated" else t
-    md(sprintf("| %s | %s | %.1f%% |", tname, format(type_table[t], big.mark = ","),
-      100 * type_table[t] / total))
+  type_names <- names(type_table)
+  for (i in seq_along(type_table)) {
+    # The NA bin has an NA name: index by position, not by name
+    tname <- if (is.na(type_names[i])) "Not annotated" else type_names[i]
+    n_type <- as.integer(type_table[i])
+    md(sprintf("| %s | %s | %.1f%% |", tname, format(n_type, big.mark = ","), 100 * n_type / total))
   }
   md("")
 }

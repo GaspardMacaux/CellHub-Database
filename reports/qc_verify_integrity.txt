@@ -1,0 +1,219 @@
+============================================================
+  CellHub Database — Deep Integrity Verification
+============================================================
+
+=== CHECK 1: interaction_name consistency ===
+  Result: 0 mismatches found
+
+=== CHECK 2: Column content sanity ===
+  !! human/CellHubDB_human_CellChatDB_v2.rds: 6 ligands with unexpected spaces
+    Examples: Activin AB, Inhibin A, Inhibin B
+  !! human/CellHubDB_human_merged.rds: 6 ligands with unexpected spaces
+    Examples: Activin AB, Inhibin A, Inhibin B
+  !! mouse/CellHubDB_mouse_CellChatDB_v2.rds: 6 ligands with unexpected spaces
+    Examples: Activin AB, Inhibin A, Inhibin B
+  !! mouse/CellHubDB_mouse_merged.rds: 6 ligands with unexpected spaces
+    Examples: Activin AB, Inhibin A, Inhibin B
+  !! tomato/CellHubDB_tomato_merged.rds: 120 receptors look like metadata
+    Examples: Solyc10g076410.1, Solyc10g085310.1, Solyc04g051510.1
+  !! tomato/CellHubDB_tomato_PlantCellChatDB.rds: 122 receptors look like metadata
+    Examples: Solyc10g076410.1, Solyc10g085310.1, Solyc04g051510.1
+  !! zebrafish/CellHubDB_zebrafish_CellChatDB_v2.rds: 20 ligands with unexpected spaces
+    Examples: inhibin a, Inhibin B, activin ab
+  !! zebrafish/CellHubDB_zebrafish_CellChatDB_v2.rds: 6 receptors look like metadata
+    Examples: si:zfos-169g10.2, si:dkey-26c10.5
+  !! zebrafish/CellHubDB_zebrafish_connectomeDB2025.rds: 8 receptors look like metadata
+    Examples: si:dkey-26c10.5, si:rp71-1c10.7
+  !! zebrafish/CellHubDB_zebrafish_merged.rds: 20 ligands with unexpected spaces
+    Examples: inhibin a, Inhibin B, activin ab
+  !! zebrafish/CellHubDB_zebrafish_merged.rds: 13 receptors look like metadata
+    Examples: si:zfos-169g10.2, si:dkey-26c10.5, si:rp71-1c10.7
+  Result: column content check complete
+
+=== CHECK 3: Individual -> Merged traceability ===
+  OK arabidopsis / PlantCellChatDB: all 5481 pairs found in merged
+  OK arabidopsis / PlantPhoneDB: all 3514 pairs found in merged
+  OK celegans / cell2cell_Armingol: all 245 pairs found in merged
+  OK chicken / connectomeDB2025: all 2593 pairs found in merged
+  OK chimp / connectomeDB2025: all 3444 pairs found in merged
+  OK cow / connectomeDB2025: all 3295 pairs found in merged
+  OK dog / connectomeDB2025: all 3249 pairs found in merged
+  OK drosophila / FlyPhoneDB2: all 1798 pairs found in merged
+  OK frog / connectomeDB2025: all 2776 pairs found in merged
+  OK horse / connectomeDB2025: all 3285 pairs found in merged
+  OK human / CellChatDB_v2: all 3233 pairs found in merged
+  OK human / CellPhoneDB: all 2909 pairs found in merged
+  OK human / CellTalkDB: all 3392 pairs found in merged
+  OK human / connectomeDB2025: all 3532 pairs found in merged
+  OK human / MultiNicheNet: all 5079 pairs found in merged
+  OK human / NeuronChatDB: all 468 pairs found in merged
+  OK macaque / connectomeDB2025: all 3417 pairs found in merged
+  OK maize / PlantCellChatDB: all 2316 pairs found in merged
+  OK marmoset / connectomeDB2025: all 3183 pairs found in merged
+  OK mouse / CellChatDB_v2: all 3379 pairs found in merged
+  OK mouse / CellTalkDB: all 2033 pairs found in merged
+  OK mouse / connectomeDB2025: all 3228 pairs found in merged
+  OK mouse / MultiNicheNet: all 5591 pairs found in merged
+  OK mouse / NeuronChatDB: all 452 pairs found in merged
+  OK pig / connectomeDB2025: all 3244 pairs found in merged
+  OK rat / connectomeDB2025: all 3315 pairs found in merged
+  OK rice / PlantCellChatDB: all 1864 pairs found in merged
+  OK sheep / connectomeDB2025: all 3121 pairs found in merged
+  OK soybean / PlantCellChatDB: all 1457 pairs found in merged
+  OK tomato / PlantCellChatDB: all 1069 pairs found in merged
+  OK zebrafish / CellChatDB_v2: all 2514 pairs found in merged
+  OK zebrafish / connectomeDB2025: all 2768 pairs found in merged
+
+=== CHECK 4: Merged -> Individual traceability ===
+  OK arabidopsis: all 7191 merged pairs traceable to source files
+  OK celegans: all 245 merged pairs traceable to source files
+  OK chicken: all 2593 merged pairs traceable to source files
+  OK chimp: all 3444 merged pairs traceable to source files
+  OK cow: all 3295 merged pairs traceable to source files
+  OK dog: all 3249 merged pairs traceable to source files
+  OK drosophila: all 1798 merged pairs traceable to source files
+  OK frog: all 2776 merged pairs traceable to source files
+  OK horse: all 3285 merged pairs traceable to source files
+  OK human: all 11479 merged pairs traceable to source files
+  OK macaque: all 3417 merged pairs traceable to source files
+  OK maize: all 2268 merged pairs traceable to source files
+  OK marmoset: all 3183 merged pairs traceable to source files
+  OK mouse: all 9789 merged pairs traceable to source files
+  OK pig: all 3244 merged pairs traceable to source files
+  OK rat: all 3315 merged pairs traceable to source files
+  OK rice: all 1810 merged pairs traceable to source files
+  OK sheep: all 3121 merged pairs traceable to source files
+  OK soybean: all 1412 merged pairs traceable to source files
+  OK tomato: all 1041 merged pairs traceable to source files
+  OK zebrafish: all 4998 merged pairs traceable to source files
+
+=== CHECK 5: Converted vs Database spot check ===
+  OK celegans / cell2cell_Armingol: 10 / 10 sampled pairs verified
+  OK human / CellChatDB_v2: 10 / 10 sampled pairs verified
+  OK mouse / CellChatDB_v2: 10 / 10 sampled pairs verified
+  OK zebrafish / CellChatDB_v2: 10 / 10 sampled pairs verified
+  OK human / CellPhoneDB: 10 / 10 sampled pairs verified
+  OK human / CellTalkDB: 10 / 10 sampled pairs verified
+  OK mouse / CellTalkDB: 10 / 10 sampled pairs verified
+  OK chicken / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK chimp / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK cow / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK dog / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK frog / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK horse / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK human / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK macaque / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK marmoset / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK mouse / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK pig / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK rat / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK sheep / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK zebrafish / connectomeDB2025: 10 / 10 sampled pairs verified
+  OK drosophila / FlyPhoneDB2: 10 / 10 sampled pairs verified
+  OK human / MultiNicheNet: 10 / 10 sampled pairs verified
+  OK mouse / MultiNicheNet: 10 / 10 sampled pairs verified
+  OK human / NeuronChatDB: 10 / 10 sampled pairs verified
+  OK mouse / NeuronChatDB: 10 / 10 sampled pairs verified
+  OK arabidopsis / PlantCellChatDB: 10 / 10 sampled pairs verified
+  !! maize / PlantCellChatDB: 5 / 10 sampled pairs NOT found in database file
+  OK rice / PlantCellChatDB: 10 / 10 sampled pairs verified
+  OK soybean / PlantCellChatDB: 10 / 10 sampled pairs verified
+  OK tomato / PlantCellChatDB: 10 / 10 sampled pairs verified
+  OK arabidopsis / PlantPhoneDB: 10 / 10 sampled pairs verified
+
+=== CHECK 6: Multi-source entries validation ===
+  human: checked 200 multi-source entries
+    OK — all winners in sources, all sources have files
+  mouse: checked 200 multi-source entries
+    OK — all winners in sources, all sources have files
+
+=== CHECK 7: Rowname integrity ===
+  Result: rowname check complete
+
+=== CHECK 8: Exhaustive converted -> database pair comparison ===
+  OK celegans / cell2cell_Armingol: 245 pairs — all match, none swapped
+  OK human / CellChatDB_v2: 3233 pairs — all match, none swapped
+  OK mouse / CellChatDB_v2: 3379 pairs — all match, none swapped
+  OK zebrafish / CellChatDB_v2: 2774 pairs — all match, none swapped
+  !! human / CellPhoneDB: 2 pairs in converted NOT in database
+    MISSING: C10orf99 -> GPR15
+    MISSING: C10orf99 -> SUSD2
+  !! human / CellTalkDB: 6 pairs in converted NOT in database
+    MISSING: DEFB4A -> CCR6
+    MISSING: DEFB4A -> TLR4
+    MISSING: DEFB103B -> CCR6
+  !! mouse / CellTalkDB: 7 pairs in converted NOT in database
+    MISSING: Il1f6 -> Il1rap
+    MISSING: Il1f6 -> Il1rl2
+    MISSING: Il1f8 -> Il1rap
+  !! mouse / CellTalkDB: 7 pairs in database NOT in converted (phantom)
+  !! chicken / connectomeDB2025: 4 pairs in converted NOT in database
+    MISSING: C3 -> C4BPS2
+    MISSING: FCER2 -> C4BPS2
+    MISSING: C4BPS2 -> FCER2
+  OK chimp / connectomeDB2025: 3444 pairs — all match, none swapped
+  OK cow / connectomeDB2025: 3295 pairs — all match, none swapped
+  OK dog / connectomeDB2025: 3249 pairs — all match, none swapped
+  OK frog / connectomeDB2025: 2776 pairs — all match, none swapped
+  OK horse / connectomeDB2025: 3285 pairs — all match, none swapped
+  !! human / connectomeDB2025: 29 pairs in converted NOT in database
+    MISSING: DEFB103B -> CCR2
+    MISSING: DEFB103B -> CCR6
+    MISSING: DEFB4A -> CCR6
+  !! human / connectomeDB2025: 11 pairs in database NOT in converted (phantom)
+  !! macaque / connectomeDB2025: 1 pairs in converted NOT in database
+    MISSING: SLURP2 -> 
+  !! marmoset / connectomeDB2025: 2 pairs in converted NOT in database
+    MISSING: MA_m002_jsm762B1f -> CSF2RB
+    MISSING: MA_m002_jsm762B1f -> IL3RA
+  !! mouse / connectomeDB2025: 8 pairs in converted NOT in database
+    MISSING: Cripto -> Acvr1b
+    MISSING: Cripto -> Acvr1c
+    MISSING: Cripto -> Acvr2a
+  !! mouse / connectomeDB2025: 8 pairs in database NOT in converted (phantom)
+  OK pig / connectomeDB2025: 3244 pairs — all match, none swapped
+  OK rat / connectomeDB2025: 3315 pairs — all match, none swapped
+  OK sheep / connectomeDB2025: 3121 pairs — all match, none swapped
+  OK zebrafish / connectomeDB2025: 2768 pairs — all match, none swapped
+  OK drosophila / FlyPhoneDB2: 1798 pairs — all match, none swapped
+  !! human / MultiNicheNet: 24 pairs in converted NOT in database
+    MISSING: C10orf99 -> GPR15
+    MISSING: C4B_2 -> CD46
+    MISSING: C4B_2 -> CR1
+  !! human / MultiNicheNet: 5 pairs in database NOT in converted (phantom)
+  !! mouse / MultiNicheNet: 106 pairs in converted NOT in database
+    MISSING: 2300002M23Rik -> Ddr1
+    MISSING: 2610528A11Rik -> Gpr15
+    MISSING: 9530003J23Rik -> Itgal
+  !! mouse / MultiNicheNet: 16 pairs in database NOT in converted (phantom)
+  !! human / NeuronChatDB: 3 pairs in converted NOT in database
+    MISSING: SHMT1 -> GLRA4
+    MISSING: SHMT2 -> GLRA4
+    MISSING: SLC32A1 -> GLRA4
+  OK mouse / NeuronChatDB: 452 pairs — all match, none swapped
+  OK arabidopsis / PlantCellChatDB: 5725 pairs — all match, none swapped
+  !! maize / PlantCellChatDB: 812 pairs in converted NOT in database
+    MISSING: chitin -> ZEAMMB73_Zm00001d021090
+    MISSING: ZEAMMB73_Zm00001d048540 -> Zm00001eb283810
+    MISSING: ZEAMMB73_Zm00001d003074 -> Zm00001eb283810
+  !! maize / PlantCellChatDB: 812 pairs in database NOT in converted (phantom)
+  !! rice / PlantCellChatDB: 1 pairs in converted NOT in database
+    MISSING: Os07g0173700  -> Os01g0958100
+  !! rice / PlantCellChatDB: 1 pairs in database NOT in converted (phantom)
+  !! soybean / PlantCellChatDB: 9 pairs in converted NOT in database
+    MISSING: GLYMA_U027300 -> Glyma.06G004500
+    MISSING: GLYMA_U027400 -> Glyma.06G004500
+    MISSING: GLYMA_U027300 -> Glyma.12G030900
+  !! soybean / PlantCellChatDB: 9 pairs in database NOT in converted (phantom)
+  OK tomato / PlantCellChatDB: 1083 pairs — all match, none swapped
+  OK arabidopsis / PlantPhoneDB: 3514 pairs — all match, none swapped
+
+============================================================
+  VERIFICATION SUMMARY
+============================================================
+
+  !! 2221 ISSUES FOUND — review the details above.
+
+============================================================
+  Verification complete.
+============================================================

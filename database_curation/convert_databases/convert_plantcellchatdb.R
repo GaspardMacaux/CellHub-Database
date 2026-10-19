@@ -14,7 +14,6 @@
 # with PMIDs and KEGG references as evidence.                                 #
 # Reference: Liu et al. (2026) Plant J. PMID:42119054                         #
 ################################################################################
-setwd("/media/gaspard/Gasp/CellHub Database")
 INPUT_DIR   <- "raw_databases/PlantCellChatDB"
 OUTPUT_DIR  <- "converted"
 SOURCE_NAME <- "PlantCellChatDB"
@@ -43,6 +42,15 @@ for (prefix in names(SPECIES_FILES)) {
   
   lr <- read.csv(input_file, stringsAsFactors = FALSE)
   cat(sprintf("  %s (%s): %d interactions loaded\n", sp_code, prefix, nrow(lr)))
+  # Soybean IDs come in KEGG/Ensembl form (GLYMA_07G056900); the underscore is CellChat's complex
+  # separator, so they are converted to the Wm82 Phytozome/SoyBase form (Glyma.07G056900)
+  if (sp_code == "soybean") {
+    id_cols <- intersect(c("Interaction_name", "Ligand", "Receptor", "Complex1", "Complex2",
+                           "Agonist", "Antagonist", "CoAreceptor", "CoIreceptor"), colnames(lr))
+    for (col in id_cols) lr[[col]] <- gsub("GLYMA_(\\d{2}G\\d{6})", "Glyma.\\1", lr[[col]])
+    cat(sprintf("    Soybean IDs converted to Glyma.xxGxxxxxx form (%d receptors)\n",
+                sum(grepl("^Glyma\\.", lr$Receptor))))
+  }
   
   # Map Interaction_type to CellChat canonical types
   map_type <- function(itype) {

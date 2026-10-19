@@ -1,0 +1,17 @@
+37 raw files inventoried -> source_provenance.csv
+Registered S3 method overwritten by 'pROC':
+  method   from            
+  plot.roc spatstat.explore
+Registered S3 method overwritten by 'lme4':
+  method           from
+  na.action.merMod car 
+Messages d'avis :
+1: remplacement de l'importation précédente ‘data.table::dcast’ par ‘reshape2::dcast’ lors du chargement de ‘NeuronChat’ 
+2: remplacement de l'importation précédente ‘data.table::melt’ par ‘reshape2::melt’ lors du chargement de ‘NeuronChat’ 
+3: remplacement de l'importation précédente ‘e1071::element’ par ‘ggplot2::element’ lors du chargement de ‘nichenetr’ 
+        package    version                            github
+       CellChat 2.2.0.9001                  CellChat@75253cd
+     NeuronChat      1.0.0                NeuronChat@36e06b2
+      nichenetr    2.2.1.1                 nichenetr@66f90d5
+ multinichenetr      2.1.0            multinichenetr@f1db92c
+         Seurat      5.4.0 https://cloud.r-project.org@5.4.0
