@@ -73,16 +73,22 @@ The MD5 checksum, size and date of every raw file are listed in `source_provenan
 ## File structure
 
 ```
-CellHubDB.rds                          # Named list: one merged CellChat DB per species
-CellHubDB_species_summary.csv          # Interactions, sources, multi-source %, complexes per species
-CellHubDB_source_contribution.csv      # Supported / exclusive interactions per source and species
-databases/
-├── <species>/
-│   ├── CellHubDB_<species>_<source>.rds   # One file per source
-│   └── CellHubDB_<species>_merged.rds     # All sources merged and deduplicated
-├── removed_uniprot_entries.csv            # Audit: unresolved UniProt entries (4)
-└── removed_invalid_genesymbols.csv        # Audit: symbols absent from the reference gene table (185)
+README.md, run_pipeline.sh, freeze_release.sh
+R/cellhubdb_functions.R        # shared functions: CellChat schema, repairs, pathways, pair-level confidence
+pipeline/                      # numbered in run order (see "Curation pipeline")
+config/                        # manual tables: complex_reconstructions.tsv, sources_manifest.tsv
+data/                          # not versioned on GitHub (archived on Zenodo)
+├── raw/                       #   source files as downloaded or extracted from R packages
+├── converted/                 #   one standardized table per source and species
+├── geneinfo/                  #   Ensembl-based gene tables (gtf/ = cached Ensembl GTFs)
+└── databases/<species>/       #   working copy: CellHubDB_<species>_<source>.rds, CellHubDB_<species>_merged.rds, audit CSVs
+output/                        # last pipeline run: CellHubDB.rds, summary CSVs, figures/, reports/ (logs), gate/, report/
+release/<version>/             # frozen releases: CellHubDB.rds, app_databases/, reports, gate, report, MD5SUMS
+revision/                      # analyses for the manuscript revisions; results/ holds their outputs
+archive/                       # superseded scripts, intermediate releases and outputs (kept, not used)
 ```
+
+All scripts are run from the repository root.
 
 ---
 
@@ -135,18 +141,22 @@ Plant identifiers must match the annotation used to build your count matrix. Gen
 ## Curation pipeline
 
 ```
-raw_databases/                          raw files (RDS, CSV, TSV, XLSX)
-      │  collect_source_provenance.R    → source_provenance.csv, package_versions.csv
-      ▼
-database_curation/convert_databases/    one converter per source
-      ▼
-converted/                              92,032 source-level entries
-      ▼
-database_curation/curate_CellHub_DB.R   cleaning, nomenclature, validation, merge
-      ▼
-databases/<species>/                    91,199 curated entries → 73,589 merged
-      ▼
-database_curation/build_cellhubdb.R     → CellHubDB.rds + summary CSVs
+bash run_pipeline.sh [--convert]        full rebuild into output/; bash freeze_release.sh <version> copies it to release/<version>/
+
+data/raw/
+   │  pipeline/00_sources_manifest.R, 00b_fill_manifest.R, 00c_extract_package_sources.R   source files and checksums
+   │  pipeline/01_collect_source_provenance.R   → output/source_provenance.csv, output/package_versions.csv
+   ▼
+pipeline/02_convert/convert_*.R         one converter per source        → data/converted/
+pipeline/03_analyze_converted.R         QC of converted tables
+pipeline/04_build_geneinfo.R            Ensembl gene tables             → data/geneinfo/
+pipeline/05_curate.R                    cleaning, nomenclature, validation, merge → data/databases/<species>/
+pipeline/06–08_*.R                      QC (pre-freeze checks, integrity, annotation coverage)
+pipeline/09_finalize.R                  CellChat schema, repairs, pathways, confidence tiers (in place)
+pipeline/10_build.R                     → output/CellHubDB.rds + summary CSVs
+pipeline/11_stats.R, 12_upset_plot.R    statistics report and figures
+pipeline/13_release_gate.R              release gate (stops on FAIL)      → output/gate/
+pipeline/14_database_report.R           numbers report                    → output/report/
 ```
 
 ### Curation steps
@@ -173,10 +183,11 @@ FlyPhoneDB2 = cell2cell_Armingol = PlantPhoneDB = PlantCellChatDB > CellTalkDB >
 
 | Script | Checks |
 |---|---|
-| `verify_integrity.R` | Traceability from converted to per-source to merged files (exhaustive), multi-source consistency, row names |
-| `analyze_databases.R` | Per-species annotation coverage, casing, complex/cofactor/geneInfo tables |
-| `cellhubdb_stats.R` | Statistics report (`CellHubDB_Statistics_Report.md`) |
-| `upset_plot.R` | Source overlap figures |
+| `pipeline/07_verify_integrity.R` | Traceability from converted to per-source to merged files (exhaustive), multi-source consistency, row names |
+| `pipeline/08_analyze_databases.R` | Per-species annotation coverage, casing, complex/cofactor/geneInfo tables |
+| `pipeline/11_stats.R` | Statistics report (`output/CellHubDB_Statistics_Report.md`) |
+| `pipeline/12_upset_plot.R` | Source overlap figures |
+| `pipeline/13_release_gate.R` | Every reviewer check plus a CellChat smoke test on every file; the release is not frozen on FAIL |
 
 ---
 

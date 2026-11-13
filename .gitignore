@@ -1,22 +1,14 @@
-# Data and generated files (distributed through Zenodo, not GitHub)
-raw_databases/
-converted/
-geneinfo/
-databases/
-app_databases*/
-release*/
-reports/
-figures/
-Archives/
-review/*/
+# Data, generated outputs and frozen releases (archived on Zenodo, not on GitHub)
 data/
 output/
+release/
 archive/
 revision/results/
 *.rds
 *.xlsx
-hgnc_complete_set.txt
-inventory.txt
+*.tgz
+undo_migration.sh
+# System files
 .DS_Store
 ._*
 .Rhistory
