@@ -1,8 +1,10 @@
-# CellHub Database (CellHubDB) — Multi-Species Curated Ligand–Receptor Interaction Database
+# Cell-Hub Database (CellHubDB) — Multi-Species Curated Ligand–Receptor Interaction Database
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24197571.svg)](https://doi.org/10.5281/zenodo.24197571)
 
 **Version:** 2.1
 **Build date:** 2026-11-13
-**Release file:** `release/2.1/CellHubDB.rds` (MD5 `84419abc3ee00cd516da00b99b0ba425`)
+**Release file:** `CellHubDB_2.1.rds` (MD5 `84419abc3ee00cd516da00b99b0ba425`), on Zenodo: [doi:10.5281/zenodo.24197571](https://doi.org/10.5281/zenodo.24197571) and attached to the GitHub release v2.1
 **Content:** 76,582 interactions · 21 species · 10 source databases · pair-level confidence annotation
 **Format:** CellChat-native RDS (ready to use in Cell-Hub or in CellChat)
 **Preprint:** doi:10.64898/2026.09.23.753685
@@ -234,7 +236,7 @@ bash run_pipeline.sh --convert                      # rebuild output/CellHubDB.r
 bash freeze_release.sh 2.1                          # copy to release/2.1/ with MD5SUMS
 ```
 
-- **Raw sources.** 25 of the 33 checked raw files are re-obtained from pinned origins (GitHub commits or tags, Zenodo records, R packages at fixed commits, MaizeGDB) and verified by MD5 or, for re-serialised R objects, by content. CellTalkDB, connectomeDB2025 and PlantCellChatDB have no versioned download; their 8 raw files are distributed in the CellHubDB raw-data deposit and checked by MD5.
+- **Raw sources.** 25 of the 33 checked raw files are re-obtained from pinned origins (GitHub commits or tags, Zenodo records, R packages at fixed commits, MaizeGDB) and verified by MD5 or, for re-serialised R objects, by content. CellTalkDB, connectomeDB2025 and PlantCellChatDB have no versioned download (8 raw files, checked by MD5). The CellTalkDB (GPL-3.0) and connectomeDB2025 (MIT) files are distributed in the Zenodo deposit ([doi:10.5281/zenodo.24197571](https://doi.org/10.5281/zenodo.24197571)) with their licences; the PlantCellChatDB files carry no licence and are not redistributed: obtain them from the PlantCellChat web site and check them against the MD5 in `config/source_retrieval.tsv`.
 - **Gene tables.** Ensembl 112 (vertebrates, *Drosophila*, *C. elegans*) and Ensembl Plants 59 GTFs; files and MD5 in `data/geneinfo/gtf_manifest.tsv`.
 - **Build.** Running the pipeline on these inputs reproduces `release/2.1/CellHubDB.rds` bit for bit (same MD5 when built on the same day; `attr(, "build_date")` is the only date-dependent field).
 
@@ -289,6 +291,25 @@ cellchat@DB <- db_rec
 v2.0 had rebuilt the database from versioned raw sources and fixed defects of v1.0 (complex names altered by case normalization, an over-broad UniProt filter, zebrafish validation against a non-genome-wide gene table, uppercased *Xenopus* and crop identifiers).
 
 Previous versions are kept as tags of this repository: [v2.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v2.0) (version analysed in the first review round) and [v1.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v1.0) (version described in the preprint). They are superseded by 2.1.
+
+---
+
+## Source licences
+
+Each source keeps its own licence and terms of use; cite the source articles when you use their content.
+
+| Source | Licence |
+|---|---|
+| CellChatDB v2 | GPL-3 |
+| CellPhoneDB | MIT (CellPhoneDB software) |
+| CellTalkDB | GPL-3.0 |
+| connectomeDB2025 | MIT ("freely available under the MIT License and provided AS IS", connectomedb.org) |
+| NicheNet v2 (nichenetr, multinichenetr) | GPL-3 |
+| NeuronChatDB | GPL-3 |
+| FlyPhoneDB2 | MIT |
+| *C. elegans* LR pairs (Armingol et al.), PlantPhoneDB, PlantCellChatDB | no licence stated; content redistributed in derived form with citation |
+
+The curation pipeline and CellHubDB release files are distributed under GPL-3.0.
 
 ---
 
