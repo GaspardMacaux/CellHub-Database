@@ -1,0 +1,11 @@
+species	complex	subunit_1	subunit_2	reason
+zebrafish	ACVR1_BMPR2_1	acvr1l	bmpr2a	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1_BMPR2_2	acvr1l	bmpr2b	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2A_1	acvr1ca	acvr2aa	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2A_2	acvr1ca	acvr2ab	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2A_3	acvr1cb	acvr2aa	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2A_4	acvr1cb	acvr2ab	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2B_1	acvr1ca	acvr2ba	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2B_2	acvr1ca	acvr2bb	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2B_3	acvr1cb	acvr2ba	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
+zebrafish	ACVR1C_ACVR2B_4	acvr1cb	acvr2bb	undefined in CellChatDB.zebrafish 2.2.0.9001; paralog combinations = numbered variants
