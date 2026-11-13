@@ -288,6 +288,8 @@ cellchat@DB <- db_rec
 
 v2.0 had rebuilt the database from versioned raw sources and fixed defects of v1.0 (complex names altered by case normalization, an over-broad UniProt filter, zebrafish validation against a non-genome-wide gene table, uppercased *Xenopus* and crop identifiers).
 
+Previous versions are kept as tags of this repository: [v2.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v2.0) (version analysed in the first review round) and [v1.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v1.0) (version described in the preprint). They are superseded by 2.1.
+
 ---
 
 ## Citation
