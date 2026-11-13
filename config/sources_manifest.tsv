@@ -1,39 +1,40 @@
 file	size_bytes	modified	md5	source	version	url
-Celegans_LR/Celegans-2022-Armingol-LR-pairs.xlsx	51341	2026-08-21	e995b33d017f3f924eac130095c45dcf	cell2cell_Armingol	Armingol et al. 2022	
+Celegans_LR/Celegans-2022-Armingol-LR-pairs.xlsx	51341	2026-08-21	e995b33d017f3f924eac130095c45dcf	cell2cell_Armingol	Armingol et al. 2022 (LewisLabUCSD/Ligand-Receptor-Pairs c0ce816)	https://raw.githubusercontent.com/LewisLabUCSD/Ligand-Receptor-Pairs/c0ce8167c20c2f5d1a3d309e04514da9a178c41c/Others/Celegans-2022-Armingol-LR-pairs.xlsx
 CellChat/CellChatDB_v2_human.rds	2087992	2026-08-21	5a08f73547f239355b55196d165726ba	CellChatDB_v2	package:CellChat 2.2.0.9001 (75253cd)	
 CellChat/CellChatDB_v2_mouse.rds	1773570	2026-08-21	dd6c09c07d01498ff16276fe5d12e55d	CellChatDB_v2	package:CellChat 2.2.0.9001 (75253cd)	
 CellChat/CellChatDB_v2_zebrafish.rds	261336	2026-08-21	a566f3e1573244884e4ab42b525ef7c9	CellChatDB_v2	package:CellChat 2.2.0.9001 (75253cd)	
-cellphonedb-data-5.0.0/cellphonedb.zip	115911	2023-10-31	074bec28718e056df9fd088321c04edc	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/complex_input.csv	56886	2023-10-31	10ac231737a60843ea1ded1e022d3734	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/gene_input.csv	65195	2023-10-31	ae0ada4cba38ffa1a1d1be8ad6854f0a	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/interaction_input.csv	505620	2023-10-31	1a5a9b39aacca9afa9d71f23f45a9c69	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/protein_input.csv	158940	2023-10-31	2c4600121748fbcf9671a69f03d481da	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/sources/ensembl.txt	5219651	2023-10-31	c00782b09c04e6308ed870d3f2590997	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/sources/uniprot_synonyms.tsv	15202063	2023-10-31	cefb5892584f6578721aa01eaa255a47	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/sources/uniprot.tab	3420397	2023-10-31	feaf6d784dc5c7a21a88ccc409bbd6e0	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/data/transcription_factor_input.csv	26581	2023-10-31	f9c5cb323bee8afc80d0ba7c35a36b67	CellPhoneDB	v5.0.0 data release	
-cellphonedb-data-5.0.0/README.md	3227	2023-10-31	60d7bf088339068eaa5aad43bac12940	CellPhoneDB	v5.0.0 data release	
-CellTalkDB/human_gene_info.txt	7025022	2026-08-20	c29a45f1ce96779a22944e3dd00f2439	CellTalkDB		
-CellTalkDB/human_gene2ensembl.txt	2207457	2026-08-20	f84dbb4a583e798e55f83daee4b027c4	CellTalkDB		
-CellTalkDB/human_lr_pair.txt	363670	2026-08-20	697c5e38b7436141615b436b218b5d4a	CellTalkDB		
-CellTalkDB/human_uniprot.txt	946612	2026-08-20	f087045aca1eef2597ef13d9ef9cfa2c	CellTalkDB		
-CellTalkDB/mouse_gene_info.txt	7828198	2026-08-20	7ed39e7f75e75daa057f19fb6d4f3c83	CellTalkDB		
-CellTalkDB/mouse_gene2ensembl.txt	1926743	2026-08-20	b4357314da0f65b7966cff104c3fa71b	CellTalkDB		
-CellTalkDB/mouse_lr_pair.txt	251069	2026-08-21	54636256772126c0cca588b834664a84	CellTalkDB		
-CellTalkDB/mouse_uniprot.txt	723489	2026-08-20	e174e2e62e5519a3b0473bbea17a34cd	CellTalkDB		
-ConnectomeDB2025/all_species.csv	17496861	2026-08-20	2d8baa8efd4ab279d089afa5a1830fa6	connectomeDB2025	2025	
-extract_all_databases.R	17613	2026-08-24	adc57774e54095ab5bcf6710b3dc3dc7	extraction_script	pipeline	
-Flyphone/FlyPhoneDB2_all.rds	82329	2026-08-21	3c2df0e13b6481e367cd2ec362899e6b	FlyPhoneDB2		
-Multinichenet/MultiNicheNet_lr_network_human.rds	216189	2026-08-21	c5ab7ddaad9675cdbaecb7da05c170f7	MultiNicheNet	package:nichenetr 2.2.1.1 / multinichenetr 2.1.0	
-Multinichenet/MultiNicheNet_lr_network_mouse.rds	207009	2026-08-21	fae6d9eb6a58bc9a85bbe52fb2f88820	MultiNicheNet	package:nichenetr 2.2.1.1 / multinichenetr 2.1.0	
+cellphonedb-data-5.0.0/cellphonedb.zip	115911	2023-10-31	074bec28718e056df9fd088321c04edc	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/cellphonedb.zip
+cellphonedb-data-5.0.0/data/complex_input.csv	56886	2023-10-31	10ac231737a60843ea1ded1e022d3734	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/complex_input.csv
+cellphonedb-data-5.0.0/data/gene_input.csv	65195	2023-10-31	ae0ada4cba38ffa1a1d1be8ad6854f0a	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/gene_input.csv
+cellphonedb-data-5.0.0/data/interaction_input.csv	505620	2023-10-31	1a5a9b39aacca9afa9d71f23f45a9c69	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/interaction_input.csv
+cellphonedb-data-5.0.0/data/protein_input.csv	158940	2023-10-31	2c4600121748fbcf9671a69f03d481da	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/protein_input.csv
+cellphonedb-data-5.0.0/data/sources/ensembl.txt	5219651	2023-10-31	c00782b09c04e6308ed870d3f2590997	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/sources/ensembl.txt
+cellphonedb-data-5.0.0/data/sources/uniprot_synonyms.tsv	15202063	2023-10-31	cefb5892584f6578721aa01eaa255a47	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/sources/uniprot_synonyms.tsv
+cellphonedb-data-5.0.0/data/sources/uniprot.tab	3420397	2023-10-31	feaf6d784dc5c7a21a88ccc409bbd6e0	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/sources/uniprot.tab
+cellphonedb-data-5.0.0/data/transcription_factor_input.csv	26581	2023-10-31	f9c5cb323bee8afc80d0ba7c35a36b67	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/data/transcription_factor_input.csv
+cellphonedb-data-5.0.0/README.md	3227	2023-10-31	60d7bf088339068eaa5aad43bac12940	CellPhoneDB	v5.0.0 data release (tag v5.0.0, 71ffa8a)	https://raw.githubusercontent.com/ventolab/cellphonedb-data/71ffa8a163389913907d40993bec2821a111f64d/README.md
+CellTalkDB/human_gene_info.txt	7025022	2026-08-20	c29a45f1ce96779a22944e3dd00f2439	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	
+CellTalkDB/human_gene2ensembl.txt	2207457	2026-08-20	f84dbb4a583e798e55f83daee4b027c4	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	
+CellTalkDB/human_lr_pair.txt	363670	2026-08-20	697c5e38b7436141615b436b218b5d4a	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	https://raw.githubusercontent.com/ZJUFanLab/CellTalkDB/7276cd4e4dcdd3c5d3a719b962a4fd6a8bfc4b29/database/human_lr_pair.rds
+CellTalkDB/human_uniprot.txt	946612	2026-08-20	f087045aca1eef2597ef13d9ef9cfa2c	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	
+CellTalkDB/mouse_gene_info.txt	7828198	2026-08-20	7ed39e7f75e75daa057f19fb6d4f3c83	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	
+CellTalkDB/mouse_gene2ensembl.txt	1926743	2026-08-20	b4357314da0f65b7966cff104c3fa71b	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	
+CellTalkDB/mouse_lr_pair.txt	251069	2026-08-21	54636256772126c0cca588b834664a84	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	https://raw.githubusercontent.com/ZJUFanLab/CellTalkDB/7276cd4e4dcdd3c5d3a719b962a4fd6a8bfc4b29/database/mouse_lr_pair.rds
+CellTalkDB/mouse_uniprot.txt	723489	2026-08-20	e174e2e62e5519a3b0473bbea17a34cd	CellTalkDB	GitHub ZJUFanLab/CellTalkDB 7276cd4 (2024-07-01)	
+ConnectomeDB2025/all_species.csv	17496861	2026-08-20	2d8baa8efd4ab279d089afa5a1830fa6	connectomeDB2025	2025	https://connectomedb.org
+Flyphone/FlyPhoneDB2_all.rds	82329	2026-08-21	3c2df0e13b6481e367cd2ec362899e6b	FlyPhoneDB2	package:FlyPhone 0.1 (49649b6)	
+Multinichenet/MultiNicheNet_lr_network_human.rds	216189	2026-08-21	c5ab7ddaad9675cdbaecb7da05c170f7	MultiNicheNet	NicheNet v2 allInfo_30112033 (Zenodo 10229222)	https://zenodo.org/records/10229222/files/lr_network_human_allInfo_30112033.rds
+Multinichenet/MultiNicheNet_lr_network_mouse.rds	207009	2026-08-21	fae6d9eb6a58bc9a85bbe52fb2f88820	MultiNicheNet	NicheNet v2 allInfo_30112033 (Zenodo 10229222)	https://zenodo.org/records/10229222/files/lr_network_mouse_allInfo_30112033.rds
 NeuronChat/NeuronChatDB_all.rds	15336	2026-08-21	a23f1428951fc882386bcbd0514c3806	NeuronChatDB	package:NeuronChat 1.0.0 (36e06b2)	
-PlantCellChatDB/ath.csv	618491	2026-08-24	0215c369348e965daacdeaf8d04d11cc	PlantCellChatDB		
-PlantCellChatDB/gmx.csv	197888	2026-08-24	6a67ff5c47e8976341a8b110e016595a	PlantCellChatDB		
-PlantCellChatDB/osa.csv	237426	2026-08-24	8993202184c957b2eedd895292295110	PlantCellChatDB		
-PlantCellChatDB/sly.csv	149174	2026-08-24	5fc69eba01f8c3314ad7f5fa114e0cc8	PlantCellChatDB		
-PlantCellChatDB/zma.csv	338993	2026-08-24	7aa3af64934e7ea5ab305ccab1416aba	PlantCellChatDB		
-Plants-2022-Xu-LR-pairs/Athaliana-2022-Xu-LR-pairs.csv	212386	2022-07-26	0c598becfcdb8f41dff001b2eeb1d3ea	PlantPhoneDB	Xu et al. 2022	
-Plants-2022-Xu-LR-pairs/Osativa-2022-Xu-LR-pairs.csv	169332	2022-07-26	2b2cff9adc1caaf9d0076a37585ba366	PlantPhoneDB	Xu et al. 2022	
-Plants-2022-Xu-LR-pairs/Palba&glandulosa-2022-Xu-LR-pairs.csv	298670	2022-07-26	fead33e3e6f294aed95240f8fa6c15c9	PlantPhoneDB	Xu et al. 2022	
-Plants-2022-Xu-LR-pairs/Slycopersicum-2022-Xu-LR-pairs.csv	92845	2022-07-26	fc415ed8fc15a85fb79b8ba4357f77bf	PlantPhoneDB	Xu et al. 2022	
-Plants-2022-Xu-LR-pairs/Zmays-2022-Xu-LR-pairs.csv	129265	2022-07-26	774fb76629a7a24093806ffe9eaeea21	PlantPhoneDB	Xu et al. 2022	
+PlantCellChatDB/ath.csv	618491	2026-08-24	0215c369348e965daacdeaf8d04d11cc	PlantCellChatDB	web-site release, downloaded 2026-08-24	https://bioinformatics.fafu.edu.cn/PlantCellChat/
+PlantCellChatDB/gmx.csv	197888	2026-08-24	6a67ff5c47e8976341a8b110e016595a	PlantCellChatDB	web-site release, downloaded 2026-08-24	https://bioinformatics.fafu.edu.cn/PlantCellChat/
+PlantCellChatDB/osa.csv	237426	2026-08-24	8993202184c957b2eedd895292295110	PlantCellChatDB	web-site release, downloaded 2026-08-24	https://bioinformatics.fafu.edu.cn/PlantCellChat/
+PlantCellChatDB/sly.csv	149174	2026-08-24	5fc69eba01f8c3314ad7f5fa114e0cc8	PlantCellChatDB	web-site release, downloaded 2026-08-24	https://bioinformatics.fafu.edu.cn/PlantCellChat/
+PlantCellChatDB/zma.csv	338993	2026-08-24	7aa3af64934e7ea5ab305ccab1416aba	PlantCellChatDB	web-site release, downloaded 2026-08-24	https://bioinformatics.fafu.edu.cn/PlantCellChat/
+Plants-2022-Xu-LR-pairs/Athaliana-2022-Xu-LR-pairs.csv	212386	2022-07-26	0c598becfcdb8f41dff001b2eeb1d3ea	PlantPhoneDB	Xu et al. 2022 (LewisLabUCSD/Ligand-Receptor-Pairs c0ce816)	https://raw.githubusercontent.com/LewisLabUCSD/Ligand-Receptor-Pairs/c0ce8167c20c2f5d1a3d309e04514da9a178c41c/Others/Plants-2022-Xu-LR-pairs.zip
+Plants-2022-Xu-LR-pairs/Osativa-2022-Xu-LR-pairs.csv	169332	2022-07-26	2b2cff9adc1caaf9d0076a37585ba366	PlantPhoneDB	Xu et al. 2022 (LewisLabUCSD/Ligand-Receptor-Pairs c0ce816)	https://raw.githubusercontent.com/LewisLabUCSD/Ligand-Receptor-Pairs/c0ce8167c20c2f5d1a3d309e04514da9a178c41c/Others/Plants-2022-Xu-LR-pairs.zip
+Plants-2022-Xu-LR-pairs/Palba&glandulosa-2022-Xu-LR-pairs.csv	298670	2022-07-26	fead33e3e6f294aed95240f8fa6c15c9	PlantPhoneDB	Xu et al. 2022 (LewisLabUCSD/Ligand-Receptor-Pairs c0ce816)	https://raw.githubusercontent.com/LewisLabUCSD/Ligand-Receptor-Pairs/c0ce8167c20c2f5d1a3d309e04514da9a178c41c/Others/Plants-2022-Xu-LR-pairs.zip
+Plants-2022-Xu-LR-pairs/Slycopersicum-2022-Xu-LR-pairs.csv	92845	2022-07-26	fc415ed8fc15a85fb79b8ba4357f77bf	PlantPhoneDB	Xu et al. 2022 (LewisLabUCSD/Ligand-Receptor-Pairs c0ce816)	https://raw.githubusercontent.com/LewisLabUCSD/Ligand-Receptor-Pairs/c0ce8167c20c2f5d1a3d309e04514da9a178c41c/Others/Plants-2022-Xu-LR-pairs.zip
+Plants-2022-Xu-LR-pairs/Zmays-2022-Xu-LR-pairs.csv	129265	2022-07-26	774fb76629a7a24093806ffe9eaeea21	PlantPhoneDB	Xu et al. 2022 (LewisLabUCSD/Ligand-Receptor-Pairs c0ce816)	https://raw.githubusercontent.com/LewisLabUCSD/Ligand-Receptor-Pairs/c0ce8167c20c2f5d1a3d309e04514da9a178c41c/Others/Plants-2022-Xu-LR-pairs.zip
+MaizeGDB/B73v4_to_B73v5.tsv	1197480	2026-11-12	b30ac56ca9082104848897392f430272	MaizeGDB	B73 v4 to v5 gene model cross-reference	https://download.maizegdb.org/Pan-genes/B73_gene_xref/B73v4_to_B73v5.tsv
+PlantCellChatDB/maize_v4_to_v5.tsv	1195484	2026-11-12	0920f2ebb75c9e2cb9062065379e3c57	MaizeGDB	derived by pipeline/00_download_sources.R	
