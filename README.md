@@ -1,10 +1,10 @@
 # Cell-Hub Database (CellHubDB) — Multi-Species Curated Ligand–Receptor Interaction Database
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24197571.svg)](https://doi.org/10.5281/zenodo.24197571)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24283592.svg)](https://doi.org/10.5281/zenodo.24283592)
 
-**Version:** 2.1
-**Build date:** 2026-11-13
-**Release file:** `CellHubDB_2.1.rds` (MD5 `84419abc3ee00cd516da00b99b0ba425`), on Zenodo: [doi:10.5281/zenodo.24197571](https://doi.org/10.5281/zenodo.24197571) and attached to the GitHub release v2.1
+**Version:** 2.1.2 (patch of 2.1: same interactions, CellChat `annotation` column and `geneInfo` completed)
+**Build date:** 2026-11-16 (2.1 built 2026-11-13)
+**Release file:** `CellHubDB_2.1.2.rds` (MD5 `c08462e1beeb9ae9013a87a86fe106d1`), on Zenodo: [doi:10.5281/zenodo.24283592](https://doi.org/10.5281/zenodo.24283592) and attached to the GitHub release v2.1.2 (2.1: [doi:10.5281/zenodo.24197571](https://doi.org/10.5281/zenodo.24197571))
 **Content:** 76,582 interactions · 21 species · 10 source databases · pair-level confidence annotation
 **Format:** CellChat-native RDS (ready to use in Cell-Hub or in CellChat)
 **Preprint:** doi:10.64898/2026.09.23.753685
@@ -131,7 +131,7 @@ All scripts are run from the repository root. `release/<version>/app_databases/`
 Each database is a CellChat-compatible list:
 
 ```r
-db <- readRDS("release/2.1/app_databases/mouse/CellHubDB_mouse_merged.rds")
+db <- readRDS("release/2.1.2/app_databases/mouse/CellHubDB_mouse_merged.rds")
 db$interaction  # LR pairs with annotations, provenance and confidence
 db$complex      # Multi-subunit complex definitions (subunit_1, subunit_2, ...)
 db$cofactor     # Agonists, antagonists and co-receptors (CellChatDB-derived)
@@ -234,11 +234,13 @@ Release 2.1 gate: 0 FAIL, 15 WARN (documented below), 1,034 PASS.
 Rscript pipeline/00_download_sources.R --install   # fetch data/raw/ from pinned origins, check MD5 or content
 bash run_pipeline.sh --convert                      # rebuild output/CellHubDB.rds
 bash freeze_release.sh 2.1                          # copy to release/2.1/ with MD5SUMS
+Rscript pipeline/patches/01_patch_release_2.1.1_annotation.R release/2.1 release/2.1.1      # canonical CellChat annotation
+Rscript pipeline/patches/02_patch_release_2.1.2_geneinfo.R release/2.1.1 release/2.1.2 2.1.2  # partner genes added to geneInfo
 ```
 
 - **Raw sources.** 25 of the 33 checked raw files are re-obtained from pinned origins (GitHub commits or tags, Zenodo records, R packages at fixed commits, MaizeGDB) and verified by MD5 or, for re-serialised R objects, by content. CellTalkDB, connectomeDB2025 and PlantCellChatDB have no versioned download (8 raw files, checked by MD5). The CellTalkDB (GPL-3.0) and connectomeDB2025 (MIT) files are distributed in the Zenodo deposit ([doi:10.5281/zenodo.24197571](https://doi.org/10.5281/zenodo.24197571)) with their licences; the PlantCellChatDB files carry no licence and are not redistributed: obtain them from the PlantCellChat web site and check them against the MD5 in `config/source_retrieval.tsv`.
 - **Gene tables.** Ensembl 112 (vertebrates, *Drosophila*, *C. elegans*) and Ensembl Plants 59 GTFs; files and MD5 in `data/geneinfo/gtf_manifest.tsv`.
-- **Build.** Running the pipeline on these inputs reproduces `release/2.1/CellHubDB.rds` bit for bit (same MD5 when built on the same day; `attr(, "build_date")` is the only date-dependent field).
+- **Build.** Running the pipeline on these inputs reproduces `release/2.1/CellHubDB.rds` bit for bit (same MD5 when built on the same day; `attr(, "build_date")` is the only date-dependent field). The two patch scripts then give 2.1.2; each one checks, file by file, that nothing else than its own change differs and writes its report in `reports/`.
 
 ---
 
@@ -267,7 +269,7 @@ bash freeze_release.sh 2.1                          # copy to release/2.1/ with 
 ```r
 library(CellChat)
 cellhubdb <- readRDS("CellHubDB.rds")
-attr(cellhubdb, "version")              # "2.1"
+attr(cellhubdb, "version")              # "2.1.2"
 db <- cellhubdb[["mouse"]]              # merged mouse database
 cellchat <- createCellChat(seurat_obj, group.by = "cell_type")
 # Recommended set: high tier, plus medium tier with corroborated ligand and receptor roles
@@ -278,6 +280,13 @@ cellchat@DB <- db_rec
 ```
 
 ---
+
+## Changes from v2.1 (2.1.1 and 2.1.2)
+
+No interaction, tier, source, complex or cofactor changed (76,582 interactions; checked file by file by the patch scripts).
+
+- **2.1.1: CellChat `annotation` column.** It now holds the canonical interaction type (Secreted Signaling, Cell-Cell Contact, ECM-Receptor, Non-protein Signaling; empty when unknown), copied from `interaction_type`, so `subsetDB(db, search = "Secreted Signaling")` works as with CellChatDB. The former free text is kept in `annotation_detail`.
+- **2.1.2: `geneInfo` lists every partner gene.** CellChat keeps only `geneInfo` symbols when it extracts the signaling genes: a single-gene ligand or receptor absent from `geneInfo` was dropped without warning, with all its interactions (6–16% of the partner genes of the orthology-based vertebrates, at most 5.3% in the other species, none in human and mouse). These symbols are now added (`geneInfo_source = "interaction partner"`). They are scored when the count matrix uses these symbols; with matrices built on Ensembl gene names they remain unmatched (see *Gene coverage*).
 
 ## Changes from v2.0
 
@@ -290,7 +299,7 @@ cellchat@DB <- db_rec
 
 v2.0 had rebuilt the database from versioned raw sources and fixed defects of v1.0 (complex names altered by case normalization, an over-broad UniProt filter, zebrafish validation against a non-genome-wide gene table, uppercased *Xenopus* and crop identifiers).
 
-Previous versions are kept as tags of this repository: [v2.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v2.0) (version analysed in the first review round) and [v1.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v1.0) (version described in the preprint). They are superseded by 2.1.
+Previous versions are kept as tags of this repository: [v2.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v2.0) (version analysed in the first review round) and [v1.0](https://github.com/GaspardMacaux/CellHub-Database/tree/v1.0) (version described in the preprint). They are superseded by 2.1.2 (tag [v2.1](https://github.com/GaspardMacaux/CellHub-Database/tree/v2.1) keeps release 2.1).
 
 ---
 
